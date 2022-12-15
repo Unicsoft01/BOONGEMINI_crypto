@@ -41,9 +41,9 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/pricing', 'Pricing')->name('pricing');
     Route::get('/contact', 'Contact')->name('contact');
     // Route::get('/careers', 'Careers')->name('index');
-    Route::get('/login', 'err')->name('login');
-    Route::get('/register', 'err')->name('register');
+    // Route::get('/login', 'err')->name('login');
+    // Route::get('/register', 'err')->name('register');
 
 });
 
-// require __DIR__.'/auth.php';
+require __DIR__.'/auth.php';
