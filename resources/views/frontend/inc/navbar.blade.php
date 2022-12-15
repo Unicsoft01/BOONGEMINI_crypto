@@ -5,11 +5,11 @@
             <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-67a6284" data-id="67a6284" data-element_type="column">
 
                   <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-00c0eed elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="00c0eed" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-00c0eed elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="00c0eed" data-element_type="widget" data-widget_type="image.default" style="padding-bottom: 0px;">
 
                               <div class="elementor-widget-container">
                                     <style>/*! elementor - v3.9.0 - 06-12-2022 */ .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>								
-                                    <img width="300" height="79" src="{{ url('/') }}/assets/img/boongemini.png" class="attachment-full size-full wp-image-40" alt="" loading="lazy" />'
+                                    <img width="300" height="79" src="{{ url('/') }}/assets/img/boongemini.png" class="attachment-full size-full wp-image-40" alt="" loading="lazy" />
                               </div>
                         </div>
                   </div>
@@ -30,11 +30,11 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="{{ route('about-us') }}" class="elementor-item">About Us</a></li>
 
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="{{ route('services') }}" class="elementor-item">Services</a>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="#" class="elementor-item">Services</a>
 
                                                       <ul class="sub-menu elementor-nav-menu--dropdown">
 
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="/service-detail" class="elementor-sub-item">Service Detail</a></li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="{{ route('services') }}" class="elementor-sub-item">Service </a></li>
 
                                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="/pricing" class="elementor-sub-item">Pricing</a></li>
 
@@ -44,20 +44,7 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/contact" class="elementor-item">Contact</a></li>
 
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a href="#" class="elementor-item elementor-item-anchor">Others</a>
-
-                                                      <ul class="sub-menu elementor-nav-menu--dropdown">
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="careers" class="elementor-sub-item">Careers</a></li>
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="{{ route('faq') }}" class="elementor-sub-item">FAQ</a></li>
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="{{ route('our-team') }}" class="elementor-sub-item">Our Team</a></li>
-
-
-                                                      </ul>
-
-                                                </li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/faq" class="elementor-item">FAQs</a></li>
 
                                           </ul>
                                     </nav>
@@ -88,19 +75,7 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
 
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Pages</a>
-
-                                                      <ul class="sub-menu elementor-nav-menu--dropdown">
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="/careers/" class="elementor-sub-item" tabindex="-1">Careers</a></li>
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="/faq/" class="elementor-sub-item" tabindex="-1">FAQ</a></li>
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
-
-                                                      </ul>
-
-                                                </li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/faq/" class="elementor-item" tabindex="-1">FAQs</a></li>
 
                                           </ul>
                                     </nav>
@@ -123,11 +98,11 @@
 
                                     <div class="elementor-button-wrapper">
 
-                                          <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                          <a href="{{ route('login') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 
                                                 <span class="elementor-button-content-wrapper">
 
-                                                      <span class="elementor-button-text">Open Account</span>
+                                                      <span class="elementor-button-text">Login</span>
 
                                                 </span>
 

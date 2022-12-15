@@ -35,13 +35,15 @@ Route::controller(FrontendController::class)->group(function (){
     Route::get('/', 'index')->name('index');
     Route::get('/about-us', 'AboutUs')->name('about-us');
     Route::get('/services', 'Services')->name('services');
-    Route::get('/faq', 'Faq')->name('faq');
-    Route::get('/our-team', 'Team')->name('our-team');
     Route::get('/service-detail', 'ServiceDetails')->name('index');
+    Route::get('/faq', 'Faq')->name('faq');
+    // Route::get('/our-team', 'Team')->name('our-team');
     Route::get('/pricing', 'Pricing')->name('pricing');
     Route::get('/contact', 'Contact')->name('contact');
-    Route::get('/careers', 'Careers')->name('index');
-    // Route::post('/contact/Store', 'ContactStore')->name('contact.store');
+    // Route::get('/careers', 'Careers')->name('index');
+    Route::get('/login', 'err')->name('login');
+    Route::get('/register', 'err')->name('register');
+
 });
 
-require __DIR__.'/auth.php';
+// require __DIR__.'/auth.php';
