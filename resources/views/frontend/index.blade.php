@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<title>Homepage &#8211; GetTrade</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Homepage &#8211; GetTrade</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel="alternate" type="application/rss+xml" title="GetTrade &raquo; Feed" href="https://kitnew.moxcreative.com/gettrade/feed/" />
 <link rel="alternate" type="application/rss+xml" title="GetTrade &raquo; Comments Feed" href="https://kitnew.moxcreative.com/gettrade/comments/feed/" />
@@ -16,18 +16,18 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
 <style>
 img.wp-smiley,
 img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 0.07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wp-block-library-css' href='https://kitnew.moxcreative.com/gettrade/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://kitnew.moxcreative.com/gettrade/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
 <link rel='stylesheet' id='classic-theme-styles-css' href='https://kitnew.moxcreative.com/gettrade/wp-includes/css/classic-themes.min.css?ver=1' media='all' />
 <style id='global-styles-inline-css'>
 body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
@@ -53,6 +53,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='skb-cife-icofont_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/icofont.min.css?ver=1.0.5' media='all' />
 <link rel='stylesheet' id='skb-cife-icomoon_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/icomoon.css?ver=1.0.5' media='all' />
 <link rel='stylesheet' id='skb-cife-iconic_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/iconic.css?ver=1.0.5' media='all' />
+
+
+
+<link rel="stylesheet" href="https://pictogrammers.github.io/@mdi/font/5.4.55/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="{{ url('/') }}/assets/icofont/icofont.min.css">
 <link rel='stylesheet' id='skb-cife-ion_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/ionicons.min.css?ver=1.0.5' media='all' />
 <link rel='stylesheet' id='skb-cife-linearicons_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/linearicons.css?ver=1.0.5' media='all' />
 <link rel='stylesheet' id='skb-cife-lineawesome_icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/line-awesome.min.css?ver=1.0.5' media='all' />
@@ -66,7 +71,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Oxygen%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CHeebo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.1.1' media='all' />
 <link rel='stylesheet' id='elementor-icons-skb_cife-materialdesign-icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/materialdesignicons.min.css?ver=1.0.5' media='all' />
 <link rel='stylesheet' id='elementor-icons-skb_cife-icofont-icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/icofont.min.css?ver=1.0.5' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ url('/') }}/assets/lib/font-awesome/css/fontawesome.min.css' media='all' />
 <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
 <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
 <link rel='stylesheet' id='elementor-icons-skb_cife-iconic-icon-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/iconic.css?ver=1.0.5' media='all' />
@@ -77,6 +82,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="https://api.w.org/" href="https://kitnew.moxcreative.com/gettrade/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kitnew.moxcreative.com/gettrade/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kitnew.moxcreative.com/gettrade/wp-includes/wlwmanifest.xml" />
 
+<script src="{{ url('/') }}/5a6e542bfa.js" crossorigin="anonymous"></script>
 <link rel="canonical" href="https://kitnew.moxcreative.com/gettrade/template-kit/homepage/" />
 <link rel='shortlink' href='https://kitnew.moxcreative.com/gettrade/?p=99' />
 <link rel="alternate" type="application/json+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Fhomepage%2F" />
@@ -86,91 +92,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
 <a class="skip-link screen-reader-text" href="#content">
-	Skip to content</a>
+Skip to content</a>
 
-		<div data-elementor-type="header" data-elementor-id="39" class="elementor elementor-39 elementor-location-header">
-								<section class="elementor-section elementor-top-section elementor-element elementor-element-5d740e0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5d740e0" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-custom">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-67a6284" data-id="67a6284" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-00c0eed elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="00c0eed" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="300" height="79" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/Logo_GetTrade_1.png" class="attachment-full size-full wp-image-40" alt="" loading="lazy" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f516c41" data-id="f516c41" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b33ecb6 elementor-nav-menu__align-right elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="b33ecb6" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-angle-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-				<ul id="menu-1-b33ecb6" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/homepage/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/about-us/" class="elementor-item">About Us</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/services/" class="elementor-item">Services</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/service-detail/" class="elementor-sub-item">Service Detail</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/pricing/" class="elementor-sub-item">Pricing</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/contact/" class="elementor-item">Contact</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a href="#" class="elementor-item elementor-item-anchor">Pages</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/careers/" class="elementor-sub-item">Careers</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/faq/" class="elementor-sub-item">FAQ</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/our-team/" class="elementor-sub-item">Our Team</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://kitnew.moxcreative.com/gettrade/?elementor_library=gettrade-v1-blog" class="elementor-sub-item">Blog</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/where-do-investors-stand-on-cryptocurrencies-faith-outweighs-fear-new-survey-finds/" class="elementor-sub-item">Single Blog</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="https://kitnew.moxcreative.com/gettrade/?elementor_library=gettrade-v1-404-page" class="elementor-sub-item">404 Page</a></li>
-</ul>
-</li>
-</ul>			</nav>
-					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
-			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open oi oi-menu"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
-		</div>
-			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
-				<ul id="menu-2-b33ecb6" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/homepage/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/services/" class="elementor-item" tabindex="-1">Services</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/service-detail/" class="elementor-sub-item" tabindex="-1">Service Detail</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/pricing/" class="elementor-sub-item" tabindex="-1">Pricing</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Pages</a>
-<ul class="sub-menu elementor-nav-menu--dropdown">
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/careers/" class="elementor-sub-item" tabindex="-1">Careers</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/faq/" class="elementor-sub-item" tabindex="-1">FAQ</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://kitnew.moxcreative.com/gettrade/template-kit/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://kitnew.moxcreative.com/gettrade/?elementor_library=gettrade-v1-blog" class="elementor-sub-item" tabindex="-1">Blog</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/where-do-investors-stand-on-cryptocurrencies-faith-outweighs-fear-new-survey-finds/" class="elementor-sub-item" tabindex="-1">Single Blog</a></li>
-	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="https://kitnew.moxcreative.com/gettrade/?elementor_library=gettrade-v1-404-page" class="elementor-sub-item" tabindex="-1">404 Page</a></li>
-</ul>
-</li>
-</ul>			</nav>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c56bda8" data-id="c56bda8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-237b8c9 elementor-align-right elementor-tablet-align-center elementor-mobile-align-right elementor-widget elementor-widget-button" data-id="237b8c9" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Open Account</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-						</div>
+<div data-elementor-type="header" data-elementor-id="39" class="elementor elementor-39 		elementor-location-header">
+@include('frontend.inc.navbar')
+</div>
 				<div data-elementor-type="wp-post" data-elementor-id="99" class="elementor elementor-99">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-b436bc1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b436bc1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -196,7 +122,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<div class="elementor-button-wrapper">
 			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Get Going</span>
+						<span class="elementor-button-text">Get Started</span>
 		</span>
 					</a>
 		</div>
@@ -1265,135 +1191,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/bitcoin-coin-in-blue-neon-close-up-against-blurred-graphs-world-cryptocurrency.jpg);"></div>
 				<div class="elementor-cta__bg-overlay"></div>
 			</div>
-							<div class="elementor-cta__content">
-				
-				<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Start To Invest And Earn More</h3>
-									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-						Lorem ipsum dolor sit amet consectetur adipiscing elit dolor					</div>
-				
-									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-					<a class="elementor-cta__button elementor-button elementor-size-sm" href="#">
-						Learn More					</a>
-					</div>
-							</div>
 						</div>
 				</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6d9ec6e elementor-invisible" data-id="6d9ec6e" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6a0b79f elementor-widget elementor-widget-heading" data-id="6a0b79f" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">From Our Blog</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4c7f4c9 elementor-widget elementor-widget-heading" data-id="4c7f4c9" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Latest Aricle</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-e52d518 elementor-grid-2 elementor-posts--thumbnail-left elementor-grid-tablet-1 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="e52d518" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;2&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:25,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;1&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;}" data-widget_type="posts.classic">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css">		<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
-				<article class="elementor-post elementor-grid-item post-117 post type-post status-publish format-standard has-post-thumbnail hentry category-insight tag-finance tag-investment tag-trading">
-				<a class="elementor-post__thumbnail__link" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/who-in-their-right-mind-would-even-use-facebooks-new-libra-coin/" >
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="854" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm.jpg" class="attachment-full size-full wp-image-115" alt="handsome young businessman holding stack of cash and bitcoin at cryptocurrency mining farm" loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm.jpg 1280w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm-300x200.jpg 300w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm-1024x684.jpg 1024w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm-768x513.jpg 768w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm-1536x1025.jpg 1536w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/handsome-young-businessman-holding-stack-of-cash-and-bitcoin-at-cryptocurrency-mining-farm-800x534.jpg 800w" sizes="(max-width: 1280px) 100vw, 1280px" /></div>
-		</a>
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/who-in-their-right-mind-would-even-use-facebooks-new-libra-coin/" >
-				Who In Their Right Mind Would Even Use Facebook’s New Libra Coin?			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			October 31, 2022		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-					<div class="elementor-post__read-more-wrapper">
-		
-		<a class="elementor-post__read-more" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/who-in-their-right-mind-would-even-use-facebooks-new-libra-coin/" >
-			Read More »		</a>
-
-					</div>
-				</div>
-				</article>
-				<article class="elementor-post elementor-grid-item post-118 post type-post status-publish format-standard has-post-thumbnail hentry category-investment tag-finance tag-investment tag-trading">
-				<a class="elementor-post__thumbnail__link" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/the-rise-of-wearables-this-is-why-investors-should-care/" >
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="856" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch.jpg" class="attachment-full size-full wp-image-130" alt="Closeup of smartwatch" loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch.jpg 1280w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch-300x201.jpg 300w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch-1024x685.jpg 1024w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch-768x514.jpg 768w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch-1536x1028.jpg 1536w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-smartwatch-800x535.jpg 800w" sizes="(max-width: 1280px) 100vw, 1280px" /></div>
-		</a>
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/the-rise-of-wearables-this-is-why-investors-should-care/" >
-				The Rise Of Wearables: This Is Why Investors Should Care			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			October 31, 2022		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-					<div class="elementor-post__read-more-wrapper">
-		
-		<a class="elementor-post__read-more" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/the-rise-of-wearables-this-is-why-investors-should-care/" >
-			Read More »		</a>
-
-					</div>
-				</div>
-				</article>
-				<article class="elementor-post elementor-grid-item post-119 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptocurrencies tag-finance tag-investment tag-trading">
-				<a class="elementor-post__thumbnail__link" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/bitcoin-will-continue-its-surge-in-2021-u-s-investors-strongly-affirm-in-new-survey/" >
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="853" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin.jpg" class="attachment-full size-full wp-image-113" alt="Closeup Of Hand Holding Bitcoin Crypto Currency Coin" loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin.jpg 1280w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin-300x200.jpg 300w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin-1024x682.jpg 1024w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin-768x512.jpg 768w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin-1536x1024.jpg 1536w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/closeup-of-hand-holding-bitcoin-crypto-currency-coin-800x533.jpg 800w" sizes="(max-width: 1280px) 100vw, 1280px" /></div>
-		</a>
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/bitcoin-will-continue-its-surge-in-2021-u-s-investors-strongly-affirm-in-new-survey/" >
-				Bitcoin will continue its surge in 2021, U.S. investors strongly affirm in new survey			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			October 31, 2022		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-					<div class="elementor-post__read-more-wrapper">
-		
-		<a class="elementor-post__read-more" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/bitcoin-will-continue-its-surge-in-2021-u-s-investors-strongly-affirm-in-new-survey/" >
-			Read More »		</a>
-
-					</div>
-				</div>
-				</article>
-				<article class="elementor-post elementor-grid-item post-120 post type-post status-publish format-standard has-post-thumbnail hentry category-finance tag-finance tag-investment tag-trading">
-				<a class="elementor-post__thumbnail__link" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/stock-in-focus-foodies-edition-starterbucks/" >
-			<div class="elementor-post__thumbnail"><img decoding="async" width="1280" height="853" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce-.jpg" class="attachment-full size-full wp-image-125" alt="Coffee bean in cup with export text for import export trade commerce." loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce-.jpg 1280w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce--300x200.jpg 300w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce--1024x682.jpg 1024w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce--768x512.jpg 768w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce--1536x1024.jpg 1536w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/coffee-bean-in-cup-with-export-text-for-import-export-trade-commerce--800x533.jpg 800w" sizes="(max-width: 1280px) 100vw, 1280px" /></div>
-		</a>
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="https://kitnew.moxcreative.com/gettrade/2022/10/31/stock-in-focus-foodies-edition-starterbucks/" >
-				Stock in Focus, Foodies Edition: Starterbucks			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			October 31, 2022		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-					<div class="elementor-post__read-more-wrapper">
-		
-		<a class="elementor-post__read-more" href="https://kitnew.moxcreative.com/gettrade/2022/10/31/stock-in-focus-foodies-edition-starterbucks/" >
-			Read More »		</a>
-
-					</div>
-				</div>
-				</article>
-				</div>
-
-
-		
-				</div>
-				</div>
-					</div>
-		</div>
+				
 							</div>
 		</section>
 							</div>
