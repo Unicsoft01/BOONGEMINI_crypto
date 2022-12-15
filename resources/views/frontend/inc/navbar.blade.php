@@ -1,3 +1,11 @@
+
+<link rel="stylesheet" href="https://pictogrammers.github.io/@mdi/font/5.4.55/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="{{ url('/') }}/assets/icofont/icofont.min.css">
+
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ url('/') }}/assets/lib/font-awesome/css/fontawesome.min.css' media='all' /> 		
+<script src="{{ url('/') }}/5a6e542bfa.js" crossorigin="anonymous"></script>
+
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-5d740e0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5d740e0" data-element_type="section">
 
       <div class="elementor-container elementor-column-gap-custom">

@@ -19,8 +19,8 @@
 </div>
 <div class="box-body">
 <h3 class="elementskit-info-box-title">
-Wide Product Range                </h3>
-        <p>We Buy, We sell, and Manage Estates withing Nigeria.</p>
+Multi Skilled</h3>
+        <p>We Buy, We sell, and Manage real Estates around the world.</p>
   </div>
 
 

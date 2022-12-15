@@ -1,6 +1,6 @@
 <html lang="en-US"><head>
 	<meta charset="UTF-8">
-		<title>GetTrade V1 – 404 Page – GetTrade</title>
+		<title>User Login Page - Login to Continue</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Feed" href="https://kitnew.moxcreative.com/gettrade/feed/">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Comments Feed" href="https://kitnew.moxcreative.com/gettrade/comments/feed/">
@@ -126,9 +126,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
     </div>
     <!-- Remember Me -->
     <div class="block mt-4">
-        <label for="remember_me" class="inline-flex items-center">
+        <label for="remember_me" class="inline-flex items-left">
             <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
             <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+        </label>
+    </div>
+    <div class="block mt-4">
+        <label for="remember_me" class="inline-flex items-right">
+            @if (Route::has('password.request'))
+    <a class="" href="{{ route('password.request') }}">
+        {{ __('Forgot your password?') }}
+    </a>
+@endif
         </label>
     </div>
 
@@ -138,9 +147,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
             <span class=" elementor-button-icon"></span>
             <span class="elementor-button-text">Login</span>
         </span>
-    </button> 
-</form>
+    </button>
+    <br> 
+    <br> 
 
+</form>
+{{-- <div  class="elementor-field-label">
+    @if (Route::has('password.request'))
+    <a class="" href="{{ route('password.request') }}">
+        {{ __('Forgot your password?') }}
+    </a>
+@endif
+</div> --}}
 
 
 

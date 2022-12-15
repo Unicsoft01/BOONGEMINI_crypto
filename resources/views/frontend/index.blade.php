@@ -110,9 +110,7 @@ Skip to content</a>
 								<div class="elementor-element elementor-element-519a982 elementor-invisible elementor-widget elementor-widget-heading" data-id="519a982" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Start trading
-with the best-known
-broker in Nigeria </h2>		</div>
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">A Digital wealth, For a digital lifestyle</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-d472bef elementor-invisible elementor-widget elementor-widget-text-editor" data-id="d472bef" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:720}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -122,7 +120,7 @@ broker in Nigeria </h2>		</div>
 
 
 
-<p>Investing in Digital Real Estate Blockchain Properties in Nigeria has never been Easier.</p>						</div>
+<p>We’re a team of ambitious Blockchain Experts that have years of experience in Cryptocurrency trading and Real Estate marketing</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-a7151e4 elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-button" data-id="a7151e4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:1080}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -172,20 +170,21 @@ broker in Nigeria </h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-5fde272 elementor-widget elementor-widget-heading" data-id="5fde272" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Who We Are</h2>		</div>
+			{{-- <h2 class="elementor-heading-title elementor-size-default">Who We Are</h2> --}}
+		</div>
 				</div>
 				<div class="elementor-element elementor-element-91c1c95 elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="91c1c95" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="elementskit-heading.default">
 				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title ">What is <span><span>BoonGemini</span></span>?</h2></div></div>		</div>
+			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-"><h5 class="ekit-heading--title elementskit-section-title "><span><span>Gateway to Unimaginable financial stability</span></span></h5></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-5836752 elementor-widget elementor-widget-text-editor" data-id="5836752" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Our description and some lorem ipsum text Malesuada vulputate pharetra natoque morbi id ex nec eleifend neque interdum. Cras vel scelerisque dis nisi magnis phasellus tempor. Nostra lobortis sagittis nulla finibus metus.</p><p>Dis laoreet pharetra fusce feugiat est habitant diam eros senectus rhoncus.</p>						</div>
+							<p>We see investing, differently. Today’s financial system is complex, exclusive and expensive - Making it hard for a typical person to start investing but we believe that digital currencies will revolutionize our legacy economic, political, and social systems.</p><p> With that transformation comes a meaningful generational shift in how institutions and individuals approach investing. That’s where BoonGemini Investments comes in.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-2e0899c elementor-widget elementor-widget-button" data-id="2e0899c" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="/about-us" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Discover More</span>
 		</span>
@@ -216,11 +215,11 @@ broker in Nigeria </h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-e38fd2b elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="e38fd2b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="elementskit-heading.default">
 				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemini</span></span> is trusted by 6+ million users in 175+ countries</h2></div></div>		</div>
+			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemini</span></span> is trusted by more than 630 team members and 2.7 million users in 175+ countries</h2></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4f73955 elementor-widget elementor-widget-text-editor" data-id="4f73955" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>We believe every investor should have access to high quality real estate blockchain assets.</p>						</div>
+							<p>We believe every investor should have access to high quality real estate and blockchain assets.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-eaf5688 elementor-widget elementor-widget-image-carousel" data-id="eaf5688" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;3&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
@@ -250,7 +249,7 @@ broker in Nigeria </h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-317104e elementor-widget elementor-widget-heading" data-id="317104e" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Investments that will make you grow</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">A better life requires a Reliable Investment</h2>		</div>
 				</div>
 					</div>
 		</div>
@@ -258,7 +257,7 @@ broker in Nigeria </h2>		</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-d12f1d8 elementor-widget elementor-widget-text-editor" data-id="d12f1d8" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Vehicula si vel phasellus iaculis interdum ex sociosqu id. Ullamcorper habitasse litora pharetra dictum mauris at vestibulum conubia placerat. Nostra odio fames sollicitudin nisl nulla fringilla enim. Inceptos felis maximus euismod venenatis purus mattis dignissim enim. Euismod ligula ullamcorper id vel velit scelerisque gravida. Blandit senectus platea tempus eros donec.</p><p>Viverra bibendum platea maximus conubia dictumst lorem hendrerit euismod. Nam pretium litora vestibulum amet magna ridiculus inceptos. Interdum erat fames arcu sodales volutpat nisl mollis tincidunt pellentesque porttitor. Sociosqu venenatis suspendisse nibh eros imperdiet scelerisque. Lacus consequat natoque fames quisque placerat molestie venenatis a consectetur interdum.</p>						</div>
+							<p>BoonGemini was founded in 2015 in Minnesota, USA with the aim of making investing in Cryptocurrency as well as Real Estate Properties accessible for everyone. Our goals since day one was to reimagine what it means to invest and earn by making simple, easy-to-use financial assets for everyone. Now, 7 years later, and with more than 630 team members and 2.7 million users.  We’re one of the fastest growing Fintechs in North America. With a PSD2 payment service provider licence and E-Money licence, state-of-the-art security and streamlined user experience, we make it possible for both first-time investors and seasoned experts to invest in what they believe in.   Our user-friendly, trade-everything Crypto and  Properties Company empowers you to invest in the stocks, Real Estate and Cryptocurrencies of your choice with any amount best suitable for you.</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -274,7 +273,7 @@ broker in Nigeria </h2>		</div>
 .elementor-counter .elementor-counter-number-wrapper{display:flex;font-size:69px;font-weight:600;line-height:1}.elementor-counter .elementor-counter-number-prefix,.elementor-counter .elementor-counter-number-suffix{flex-grow:1;white-space:pre-wrap}.elementor-counter .elementor-counter-number-prefix{text-align:right}.elementor-counter .elementor-counter-number-suffix{text-align:left}.elementor-counter .elementor-counter-title{text-align:center;font-size:19px;font-weight:400;line-height:2.5}</style>		<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="6" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="16" data-from-value="0" data-delimiter=",">16</span>
 				<span class="elementor-counter-number-suffix">+</span>
 			</div>
 							<div class="elementor-counter-title">Staffs</div>
@@ -290,7 +289,7 @@ broker in Nigeria </h2>		</div>
 					<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="40" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="650" data-from-value="0" data-delimiter=",">650</span>
 				<span class="elementor-counter-number-suffix">+</span>
 			</div>
 							<div class="elementor-counter-title">Markets</div>
@@ -306,7 +305,7 @@ broker in Nigeria </h2>		</div>
 					<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix">$</span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="50" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="50" data-from-value="0" data-delimiter=",">50</span>
 				<span class="elementor-counter-number-suffix">Million</span>
 			</div>
 							<div class="elementor-counter-title">Charter Capital</div>
@@ -322,7 +321,7 @@ broker in Nigeria </h2>		</div>
 					<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="3" data-from-value="0" data-delimiter=",">0</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="7" data-from-value="0" data-delimiter=",">7</span>
 				<span class="elementor-counter-number-suffix">yrs</span>
 			</div>
 							<div class="elementor-counter-title">Of Experience</div>
@@ -351,11 +350,11 @@ broker in Nigeria </h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-57bbdc4 elementor-widget elementor-widget-heading" data-id="57bbdc4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">The Best Service We Offer</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">We Focus on...</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-1b9fe78 elementor-widget elementor-widget-text-editor" data-id="1b9fe78" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+							<p>We offer our investors worldwide easy access investing in Cryptocurrency and Real estate with different packages and plans for both low class and high class Investors.</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -379,11 +378,12 @@ broker in Nigeria </h2>		</div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Investing                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
+                        		  <p>
+							The greatest of all risks is not taking one. We are bold to measure, Take, and Enjoy devidents fo risks.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
+											<i class="icon-arrow-right"></i>                                                                           </a>
                                                         </div>
                 </div>
                     </div>
@@ -410,11 +410,11 @@ broker in Nigeria </h2>		</div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
                     Trading                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
+                        		  <p>Time in the market beats timing the market. Even top investors have troubles timing the market always. Trade and See.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
+											<i class="icon-arrow-right"></i>                                                                            </a>
                                                         </div>
                 </div>
                     </div>
