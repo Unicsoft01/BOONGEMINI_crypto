@@ -91,7 +91,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-ac53444 elementor-widget elementor-widget-heading" data-id="ac53444" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">Content is Protected!</h3>		</div>
+			<h3 class="elementor-heading-title elementor-size-default">Content is Protected!</h3>		
+            </div>
 				</div>
 				<div class="elementor-element elementor-element-26ffa7c elementor-widget elementor-widget-text-editor" data-id="26ffa7c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
