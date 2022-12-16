@@ -1,4 +1,4 @@
-@extends('users.user_template')
+@extends('admin.admin_master')
 @section('main_contents')
 <div class="sl-mainpanel">
       <nav class="breadcrumb sl-breadcrumb">
