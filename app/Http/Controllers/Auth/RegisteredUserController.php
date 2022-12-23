@@ -45,6 +45,23 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
+        if ($user)
+        {
+                $user_mail_msg =
+                [
+                    'user' => $request->name,
+                    'recipient' => $request->email,
+                    'fromEmail' => "Support@boongemini.com",
+                    
+                    'subject' => "[Welcome] Boongemini - Gateway to Unimaginable financial stability",
+                    'body' => "Hey Dear $request->name, Thanks for registering on our site.",
+                ];
+
+                \Mail::send('email', $user_mail_msg, function($message) use ($user_mail_msg){
+                    $message->to($user_mail_msg['recipient'])->from($user_mail_msg['fromEmail'])->subject($user_mail_msg['subject']);
+                });
+        }
+
         event(new Registered($user));
 
         Auth::login($user);

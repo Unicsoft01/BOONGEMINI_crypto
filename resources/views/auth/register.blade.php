@@ -91,7 +91,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-ac53444 elementor-widget elementor-widget-heading" data-id="ac53444" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Login!</h4>		
+			<h4 class="elementor-heading-title elementor-size-default">Register!</h4>		
             </div>
 				</div>
 				<div class="elementor-element elementor-element-26ffa7c elementor-widget elementor-widget-text-editor" data-id="26ffa7c" data-element_type="widget" data-widget_type="text-editor.default">
@@ -107,49 +107,56 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 </style>
  <!-- Session Status -->
  <x-auth-session-status class="mb-4" :status="session('status')" />
-<form class="elementor-form" method="post" action="{{ route('login') }}">
+<form class="elementor-form" method="post" action="{{ route('register') }}">
 @csrf
 <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-    <label for="form-field-message" class="elementor-field-label">
-        Email							
-    </label>
-    <input type="text" class="elementor-field-textual elementor-field  elementor-size-md" name="email" id="form-field-message" rows="5" placeholder="Enter Email">
-    <x-input-error style="color: red;" :messages="$errors->get('email')" class="mt-2" />
-    </div>
+<label for="form-field-message" class="elementor-field-label">
+Full Name:							
+</label>
+<input autofocus type="text" class="elementor-field-textual elementor-field  elementor-size-md" name="name" :value="old('name')" id="name" rows="5" placeholder="Enter Full name">
+<x-input-error style="color: red;" :messages="$errors->get('name')" class="mt-2" />
+</div>
+
+<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+<label for="form-field-message" class="elementor-field-label">
+Email							
+</label>
+<input type="text" :value="old('email')" class="elementor-field-textual elementor-field  elementor-size-md" name="email" id="form-field-message" rows="5" placeholder="Enter Email">
+<x-input-error style="color: red;" :messages="$errors->get('email')" class="mt-2" />
+</div>
 
 <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
     <label for="form-field-message" class="elementor-field-label">
         Password:							
     </label>
-    <input type="password" class="elementor-field-textual elementor-field  elementor-size-md" name="password" id="form-field-message" rows="5" placeholder="Password">
+    <input class="elementor-field-textual elementor-field  elementor-size-md" type="password"
+    name="password"
+    required autocomplete="new-password" id="form-field-message" rows="5" placeholder="Password">
     <x-input-error style="color: red;" :messages="$errors->get('password')" class="mt-2" />
     </div>
-    <!-- Remember Me -->
-    <div class="block mt-4">
-        <label for="remember_me" class="inline-flex items-center">
-            <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-            <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+
+    <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+        <label for="form-field-message" class="elementor-field-label">
+            Comfirm Password:							
         </label>
-    </div>
+        <input class="elementor-field-textual elementor-field  elementor-size-md" type="password"
+        type="password" name="password_confirmation" required  id="form-field-message" rows="5" placeholder="password_confirmation">
+        <x-input-error style="color: red;" :messages="$errors->get('password_confirmation')" class="mt-2" />
+        </div>
+   
 
 <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons"> 
     <button type="submit" class="elementor-button elementor-size-md">
         <span>
             <span class=" elementor-button-icon"></span>
-            <span class="elementor-button-text">Login</span>
+            <span class="elementor-button-text">Register </span>
         </span>
     </button>
     <br> 
     <br> 
 
 </form>
-<div  class="elementor-field-label">
-    @if (Route::has('password.request'))
-    <a class="" href="{{ route('password.request') }}">
-        {{ __('Forgot your password?') }}
-    </a>
-@endif
-</div>
+
 
 
 

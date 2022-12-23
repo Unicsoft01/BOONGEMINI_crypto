@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\PropertyController;
+use App\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,13 +17,6 @@ use App\Http\Controllers\AdminController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
-
 Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('/dashboard', function () {
@@ -34,20 +29,19 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 // frontedn controller
+Route::resource('Property', PropertyController::class);
 
-Route::controller(FrontendController::class)->group(function (){
+Route::controller(FrontendController::class)->group(function ()
+{
     Route::get('/', 'index')->name('index');
     Route::get('/about-us', 'AboutUs')->name('about-us');
-    Route::get('/services', 'Services')->name('services');
-    Route::get('/service-detail', 'ServiceDetails')->name('index');
+    Route::get('/submit-a-property', 'SubmitPropery')->name('property.submit');
+    // Route::get('/services', 'Services')->name('services');
+    // Route::get('/service-detail', 'ServiceDetails')->name('index');
     Route::get('/faq', 'Faq')->name('faq');
     // Route::get('/our-team', 'Team')->name('our-team');
-    Route::get('/pricing', 'Pricing')->name('pricing');
+    // Route::get('/pricing', 'Pricing')->name('pricing');
     Route::get('/contact', 'Contact')->name('contact');
-    // Route::get('/careers', 'Careers')->name('index');
-    // Route::get('/login', 'err')->name('login');
-    // Route::get('/register', 'err')->name('register');
-
 });
 
 require __DIR__.'/auth.php';
@@ -58,7 +52,10 @@ Route::middleware(['auth:admin_guard'])->group(function () {
     Route::controller(AdminController::class)->group(function (){
 
         Route::get('/admin/dashboard', 'admin_dashboard')->name('admin.dashboard');
-        Route::get('Users/Applications', 'UserApplications')->name('users.applications');  
+
+
+
+        // Route::get('Users/Applications', 'UserApplications')->name('users.applications');  
 
         // Route::get('users', 'Users')->name('admin.users');  
         // Route::get('ticket', 'Ticket')->name('admin.ticket');  
@@ -106,14 +103,17 @@ Route::middleware(['auth:admin_guard'])->group(function () {
 
     // // PAYMENTS 
     
-    // Route::controller(PaymentsController::class)->group(function (){
-    //     Route::get('All/Payments', 'show')->name('payments.show');
-    //     // Route::get('Payments/{id}', 'Show')->name('payments.show');
-    //     // Route::get('Payments/query/{id}', 'QueryPmt')->name('payments.query');
-    // });
+    Route::controller(UsersController::class)->group(function (){
+        Route::get('User/block/{id}', 'BlockUser')->name('User.block');
+        Route::get('User/activate/{id}', 'ActivateUser')->name('User.activate');
+        // Route::get('Payments/{id}', 'Show')->name('payments.show');
+        // Route::get('Payments/query/{id}', 'QueryPmt')->name('payments.query');
+    });
 
-    // // SCHOLARSHIP PROGRAMS
-    // Route::resource('Scholarship', ScholarshipController::class);
+    // // Users
+    Route::resource('Users', UsersController::class)->only([
+        'index' //, 'store', 'update', 'destroy'
+    ]);
 
 
 

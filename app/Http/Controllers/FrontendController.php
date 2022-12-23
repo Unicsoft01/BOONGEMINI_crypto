@@ -45,4 +45,9 @@ class FrontendController extends Controller
     {
         return view('frontend.err');
     }
+
+    public function SubmitPropery()
+    {
+        return view('frontend.submit-a-property');
+    }
 }

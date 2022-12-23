@@ -38,7 +38,7 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="{{ route('about-us') }}" class="elementor-item">About Us</a></li>
 
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="#" class="elementor-item">Services</a>
+                                                {{-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="#" class="elementor-item">Services</a>
 
                                                       <ul class="sub-menu elementor-nav-menu--dropdown">
 
@@ -48,7 +48,7 @@
 
                                                       </ul>
 
-                                                </li>
+                                                </li> --}}
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/contact" class="elementor-item">Contact</a></li>
 

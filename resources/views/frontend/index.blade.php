@@ -215,7 +215,7 @@ Skip to content</a>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-e38fd2b elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="e38fd2b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="elementskit-heading.default">
 				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemini</span></span> is trusted by more than 630 team members and 2.7 million users in 175+ countries</h2></div></div>		</div>
+			<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemini</span></span> is trusted by more than 630 team members and 2.7 million users in 13+ countries</h2></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4f73955 elementor-widget elementor-widget-text-editor" data-id="4f73955" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -273,10 +273,10 @@ Skip to content</a>
 .elementor-counter .elementor-counter-number-wrapper{display:flex;font-size:69px;font-weight:600;line-height:1}.elementor-counter .elementor-counter-number-prefix,.elementor-counter .elementor-counter-number-suffix{flex-grow:1;white-space:pre-wrap}.elementor-counter .elementor-counter-number-prefix{text-align:right}.elementor-counter .elementor-counter-number-suffix{text-align:left}.elementor-counter .elementor-counter-title{text-align:center;font-size:19px;font-weight:400;line-height:2.5}</style>		<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="16" data-from-value="0" data-delimiter=",">16</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="16" data-from-value="0" data-delimiter=",">2.7M</span>
 				<span class="elementor-counter-number-suffix">+</span>
 			</div>
-							<div class="elementor-counter-title">Staffs</div>
+							<div class="elementor-counter-title">Users</div>
 					</div>
 				</div>
 				</div>
@@ -289,10 +289,10 @@ Skip to content</a>
 					<div class="elementor-counter">
 			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="650" data-from-value="0" data-delimiter=",">650</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="650" data-from-value="0" data-delimiter=",">13</span>
 				<span class="elementor-counter-number-suffix">+</span>
 			</div>
-							<div class="elementor-counter-title">Markets</div>
+							<div class="elementor-counter-title">Countries</div>
 					</div>
 				</div>
 				</div>
@@ -377,9 +377,9 @@ Skip to content</a>
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Investing                </h3>
+                    Start Investing                </h3>
                         		  <p>
-							The greatest of all risks is not taking one. We are bold to measure, Take, and Enjoy devidents fo risks.</p>
+							There's a choice of easy and flexible ways to invest in cryptocurrency and Real Estate with different offers best suitable for everyone.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
@@ -409,8 +409,8 @@ Skip to content</a>
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Trading                </h3>
-                        		  <p>Time in the market beats timing the market. Even top investors have troubles timing the market always. Trade and See.</p>
+                    Real Estate                </h3>
+                        		  <p>Long, credible record of resilience and stability in times of wider economic upheaval and Regular income. in the form of rental yields.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
@@ -440,8 +440,8 @@ Skip to content</a>
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Mutual Fund                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
+                   Trusted               </h3>
+                        		  <p> with the industry's longest track record, Boongemini is the trusted Company for institutional and individual investors interested in digital currencies, Landed properties and the growing digital economy</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
@@ -475,8 +475,8 @@ Skip to content</a>
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Wealth Management                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
+                    User Friendly                </h3>
+                        		  <p>Within a few minuites youn can create an account, choose your account strategy and select a plan across series of investment plans tailored to your goals.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
@@ -506,8 +506,8 @@ Skip to content</a>
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Crypto Investment                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
+                    Secured                </h3>
+                        		  <p>Boongemini is a licensed Minnesota Investment company that has A.I Powered annomaly detection and a 24/7 rapid response security team subjected to the cyberSecurity audits conducted by the Minnesota Department of Financial Services.</p>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
@@ -579,11 +579,11 @@ Skip to content</a>
 				<div class="elementor-element elementor-element-5dea489 elementor-widget elementor-widget-button" data-id="5dea489" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="{{ route('register') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="{{ route('property.submit') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 							<span class="elementor-button-icon elementor-align-icon-right">
 				<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>			</span>
-						<span class="elementor-button-text">Open  Account </span>
+						<span class="elementor-button-text">Submit a property  </span>
 		</span>
 					</a>
 		</div>
@@ -624,60 +624,53 @@ Skip to content</a>
 		<div class="elementor-price-table">
 							<div class="elementor-price-table__header">
 											<h3 class="elementor-price-table__heading">
-						Basic						</h3>
+						Starter						</h3>
 					
-											<span class="elementor-price-table__subheading">
-							Accounts						</span>
+											<span class="elementor-price-table__subheading" style="color: yellow;">
+							Plan						</span>
 									</div>
 			
-			<div class="elementor-price-table__price">
-								<span class="elementor-price-table__currency">&#036;</span>									<span class="elementor-price-table__integer-part">
-						0					</span>
-				
-									<div class="elementor-price-table__after-price">
-						<span class="elementor-price-table__fractional-part">
-							00						</span>
-
-											</div>
-				
-				
-									<span class="elementor-price-table__period elementor-typo-excluded">/ Monthly</span>							</div>
+	<div class="elementor-price-table__price">
+		<span class="elementor-price-table__currency">&#036;</span>
+		<span class="elementor-price-table__fractional-part">100</span>
+		<span class="elementor-price-table__fractional-part" style="color: black;"> - $4,999</span>
+		<div class="elementor-price-table__after-price">
+			{{-- <span class="elementor-price-table__integer-part"></span> --}}
+		</div>
+		{{-- <span class="elementor-price-table__period elementor-typo-excluded">/ Monthly</span> --}}
+	</div>
 
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
-										General investment account									</span>
+										Minimum investment Amount									</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-f472b82">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
-										Stocks and shares ISA									</span>
+										ROI 5% Daily for 2 days								</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
-										Self-invested personal pension									</span>
+										2% referral commission									</span>
 																</div>
 						</li>
 									</ul>
 			
 							<div class="elementor-price-table__footer">
 											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
-							Choose Plan						</a>
+							Get Started						</a>
 					
 									</div>
 					</div>
 
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-58ee5c4 elementor-widget elementor-widget-heading" data-id="58ee5c4" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Benefit :</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-89b72df elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="89b72df" data-element_type="widget" data-widget_type="icon-list.default">
+				{{-- <div class="elementor-element elementor-element-89b72df elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="89b72df" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
@@ -702,7 +695,7 @@ Skip to content</a>
 									</li>
 						</ul>
 				</div>
-				</div>
+				</div> --}}
 					</div>
 		</div>
 				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-515d990 elementor-invisible" data-id="515d990" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
@@ -713,24 +706,20 @@ Skip to content</a>
 		<div class="elementor-price-table">
 							<div class="elementor-price-table__header">
 											<h3 class="elementor-price-table__heading">
-						Standart						</h3>
+						General						</h3>
 					
 											<span class="elementor-price-table__subheading">
-							Accounts						</span>
+							Plan						</span>
 									</div>
 			
-			<div class="elementor-price-table__price">
-								<span class="elementor-price-table__currency">&#036;</span>									<span class="elementor-price-table__integer-part">
-						19					</span>
-				
-									<div class="elementor-price-table__after-price">
-						<span class="elementor-price-table__fractional-part">
-							00						</span>
-
-											</div>
-				
-				
-									<span class="elementor-price-table__period elementor-typo-excluded">/ Monthly</span>							</div>
+									<div class="elementor-price-table__price">
+										<span class="elementor-price-table__currency">&#036;</span>
+										<span class="elementor-price-table__fractional-part">5,000</span>
+										<span class="elementor-price-table__fractional-part" style="color: black;"> - Unlimited</span>
+										<div class="elementor-price-table__after-price">
+										</div>
+									</div>
+								
 
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
@@ -742,20 +731,20 @@ Skip to content</a>
 											<li class="elementor-repeater-item-f472b82">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
-										Stocks and shares ISA									</span>
+									2% referral commission										</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
-										Self-invested personal pension									</span>
+									ROI 5% Daily for 2 days											</span>
 																</div>
 						</li>
 									</ul>
 			
 							<div class="elementor-price-table__footer">
 											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
-							Choose Plan						</a>
+							Get Started					</a>
 					
 									</div>
 					</div>
@@ -766,7 +755,7 @@ Skip to content</a>
 			</div>
 					</div>
 				</div>
-				<div class="elementor-element elementor-element-cf6a708 elementor-widget elementor-widget-heading" data-id="cf6a708" data-element_type="widget" data-widget_type="heading.default">
+				{{-- <div class="elementor-element elementor-element-cf6a708 elementor-widget elementor-widget-heading" data-id="cf6a708" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default">Benefit :</h2>		</div>
 				</div>
@@ -795,7 +784,7 @@ Skip to content</a>
 									</li>
 						</ul>
 				</div>
-				</div>
+				</div> --}}
 					</div>
 		</div>
 				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-761a0f4 elementor-invisible" data-id="761a0f4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:720}">
@@ -806,49 +795,44 @@ Skip to content</a>
 		<div class="elementor-price-table">
 							<div class="elementor-price-table__header">
 											<h3 class="elementor-price-table__heading">
-						Plus						</h3>
+						Premium						</h3>
 					
 											<span class="elementor-price-table__subheading">
-							Accounts						</span>
+							Plan						</span>
 									</div>
 			
-			<div class="elementor-price-table__price">
-								<span class="elementor-price-table__currency">&#036;</span>									<span class="elementor-price-table__integer-part">
-						49					</span>
-				
-									<div class="elementor-price-table__after-price">
-						<span class="elementor-price-table__fractional-part">
-							00						</span>
-
-											</div>
-				
-				
-									<span class="elementor-price-table__period elementor-typo-excluded">/ Monthly</span>							</div>
+									<div class="elementor-price-table__price">
+										<span class="elementor-price-table__currency">1</span>
+										<span class="elementor-price-table__fractional-part">BTC </span>
+										<span class="elementor-price-table__fractional-part" style="color: black;"> - 1.4BTC</span>
+										<div class="elementor-price-table__after-price">
+										</div>
+									</div>
 
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
-										General investment account									</span>
+										Premimium investment Plan								</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-f472b82">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
-										Stocks and shares ISA									</span>
+										25.5% Daily for 10 Days									</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
 							<div class="elementor-price-table__feature-inner">
 								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
-										Self-invested personal pension									</span>
+										12% Referral Commission									</span>
 																</div>
 						</li>
 									</ul>
 			
 							<div class="elementor-price-table__footer">
 											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
-							Choose Plan						</a>
+							Get started						</a>
 					
 									</div>
 					</div>
@@ -856,35 +840,7 @@ Skip to content</a>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-f21b675 elementor-widget elementor-widget-heading" data-id="f21b675" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Benefit :</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-3e74f3c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3e74f3c" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="oi oi-check"></i>						</span>
-										<span class="elementor-icon-list-text">Automated order types</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="oi oi-check"></i>						</span>
-										<span class="elementor-icon-list-text">Advanced stock fundamentals</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="oi oi-check"></i>						</span>
-										<span class="elementor-icon-list-text">Fractional US Shares</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="oi oi-check"></i>						</span>
-										<span class="elementor-icon-list-text">Priority customer service</span>
-									</li>
-						</ul>
-				</div>
-				</div>
+
 					</div>
 		</div>
 							</div>
@@ -1025,7 +981,7 @@ Skip to content</a>
 				</div>
 				<div class="elementor-element elementor-element-d3a57ad elementor-widget elementor-widget-text-editor" data-id="d3a57ad" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Ad vitae accumsan velit vivamus faucibus sapien ac augue bibendum porttitor.</p>						</div>
+							<p>Customer satisfactions is a top priority at Boongemini</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-1962ba1 elementor-testimonial--align-left elementor-testimonial--tablet-align-left elementor-testimonial--skin-bubble elementor-testimonial--layout-image_inline elementor-widget elementor-widget-testimonial-carousel" data-id="1962ba1" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:&quot;3&quot;,&quot;slides_per_view_tablet&quot;:&quot;2&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:25,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:25,&quot;sizes&quot;:[]},&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
 				<div class="elementor-widget-container">

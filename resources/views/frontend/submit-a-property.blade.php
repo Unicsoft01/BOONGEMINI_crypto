@@ -1,11 +1,8 @@
-@php
-    $faqs =  App\Models\Faq::get();
-@endphp
 <html lang="en-US"><head>
 	<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<title>FAQ – GetTrade</title>
+	<title>Boongemini - Submit a property for tokenization</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Feed" href="https://kitnew.moxcreative.com/gettrade/feed/">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Comments Feed" href="https://kitnew.moxcreative.com/gettrade/comments/feed/">
@@ -43,7 +40,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="elementor-post-20-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/elementor/css/post-20.css?ver=1670395129" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.7.7" media="all">
-<link rel="stylesheet" id="elementor-post-235-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/elementor/css/post-235.css?ver=1670498854" media="all">
+<link rel="stylesheet" id="elementor-post-189-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/elementor/css/post-189.css?ver=1670437499" media="all">
 <link rel="stylesheet" id="elementor-post-39-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/elementor/css/post-39.css?ver=1670395130" media="all">
 <link rel="stylesheet" id="elementor-post-62-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/elementor/css/post-62.css?ver=1670395130" media="all">
 <link rel="stylesheet" id="elementor-icons-ekiticons-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=2.8.0" media="all">
@@ -69,362 +66,179 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-skb_cife-icofont-icon-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/icofont.min.css?ver=1.0.5" media="all">
-<link rel="stylesheet" id="elementor-icons-skb_cife-open_iconic-icon-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/open-iconic.css?ver=1.0.5" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
+<link rel="stylesheet" id="elementor-icons-skb_cife-open_iconic-icon-css" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/open-iconic.css?ver=1.0.5" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script src="https://kitnew.moxcreative.com/gettrade/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="https://kitnew.moxcreative.com/gettrade/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script src="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min.js?ver=1.0.21" id="template-kit-export-js"></script>
 <link rel="https://api.w.org/" href="https://kitnew.moxcreative.com/gettrade/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kitnew.moxcreative.com/gettrade/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kitnew.moxcreative.com/gettrade/wp-includes/wlwmanifest.xml">
 
-<link rel="canonical" href="https://kitnew.moxcreative.com/gettrade/template-kit/faq/">
-<link rel="shortlink" href="https://kitnew.moxcreative.com/gettrade/?p=235">
-<link rel="alternate" type="application/json+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Ffaq%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Ffaq%2F&amp;format=xml">
+<link rel="canonical" href="https://kitnew.moxcreative.com/gettrade/template-kit/contact/">
+<link rel="shortlink" href="https://kitnew.moxcreative.com/gettrade/?p=189">
+<link rel="alternate" type="application/json+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Fcontact%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Fcontact%2F&amp;format=xml">
 </head>
-<body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-235 elementor-default elementor-template-full-width elementor-kit-20 elementor-page elementor-page-235 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="mobile">
+<body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-189 elementor-default elementor-template-full-width elementor-kit-20 elementor-page elementor-page-189 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="mobile">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>
 <a class="skip-link screen-reader-text" href="#content">
 	Skip to content</a>
 
-		<div data-elementor-type="header" data-elementor-id="39" class="elementor elementor-39 elementor-location-header">
-			@include('frontend.inc.navbar')
-						</div>
-				<div data-elementor-type="wp-post" data-elementor-id="235" class="elementor elementor-235">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-703c051 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="703c051" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div data-elementor-type="header" data-elementor-id="39" class="elementor elementor-39 elementor-location-header">
+	@include('frontend.inc.navbar')
+</div>
+				<div data-elementor-type="wp-post" data-elementor-id="189" class="elementor elementor-189">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-3d463e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d463e5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2cbd02c" data-id="2cbd02c" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d5031a" data-id="3d5031a" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-caeeed2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="caeeed2" data-element_type="section">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-37bb426 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="37bb426" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2e742d9" data-id="2e742d9" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-680442c" data-id="680442c" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e56ffc0 elementor-widget elementor-widget-heading animated fadeInDown" data-id="e56ffc0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+								<div class="elementor-element elementor-element-d685451 elementor-widget elementor-widget-heading animated fadeInDown" data-id="d685451" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			{{-- <style>/*! elementor - v3.9.0 - 06-12-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Submit a propery</h2>		</div> --}}
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+			
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-35e969f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="35e969f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-26385f6" data-id="26385f6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-9244557 elementor-section-boxed elementor-section-height-default elementor-section-height-default animated slideInUp" data-id="9244557" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;slideInUp&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-05d21eb" data-id="05d21eb" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a5f7a01 elementor-widget elementor-widget-heading" data-id="a5f7a01" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Submit, Get tokenized </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2314f8a elementor-widget elementor-widget-text-editor" data-id="2314f8a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Submit a commercial property you would like to tokenize with us.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-4b6e851 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="4b6e851" data-element_type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Frequently Asked</h2>		</div>
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2c2c2c;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
 				</div>
-				<div class="elementor-element elementor-element-354bfdf elementor-icon-list--layout-inline elementor-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list animated fadeInRight" data-id="354bfdf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="icon-list.default">
+				</div>
+				<div class="elementor-element elementor-element-bc6a2fd elementor-tablet-button-align-center elementor-button-align-center elementor-widget elementor-widget-form" data-id="bc6a2fd" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items elementor-inline-items">
-							<li class="elementor-icon-list-item elementor-inline-item">
-											<a href="#">
+			<style>/*! elementor-pro - v3.7.7 - 20-09-2022 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons{-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.e-form__indicators{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators,.e-form__indicators__indicator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-form__indicators__indicator{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:0;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;-webkit-transition:width .1s linear;-o-transition:width .1s linear;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#c2cbd2}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}.elementor-select-wrapper .select-caret-down-wrapper{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);inset-inline-end:10px;pointer-events:none;font-size:11px}.elementor-select-wrapper .select-caret-down-wrapper svg{display:unset;width:1em;aspect-ratio:unset;fill:currentColor}.elementor-select-wrapper .select-caret-down-wrapper i{font-size:19px;line-height:2}.elementor-select-wrapper.remove-before:before{content:""!important}</style>
 
-											<span class="elementor-icon-list-text">Home</span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item elementor-inline-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="mdi mdi-slash-forward"></i>						</span>
-										<span class="elementor-icon-list-text">FAQ</span>
-									</li>
-						</ul>
+
+
+
+
+
+
+
+
+
+
+<form class="elementosr-form"  action="{{ route('Property.store') }}" method="post" enctype="multipart/form-data">
+@csrf
+			
+<div class="elementor-form-fields-wrapper elementor-labels-above">
+                        <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-33">
+                        <label for="form-field-name" class="elementor-field-label">
+                        Full Name:</label>
+                        <input size="1" type="text" name="name" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Full Name">
+                                          </div>
+                        <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_f77c348 elementor-col-33">
+                                                <label class="elementor-field-label">
+                        Property name							</label>
+                        <input type="text" name="property_name"  class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Property Name" >
+
+            </div>
+                        <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-33 elementor-">
+                  <label for="form-field-email" class="elementor-field-label">
+Email							</label>
+                              <input size="1" type="email" name="email" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+            </div>
+                        <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_8c8086b elementor-col-50">
+                                                <label for="form-field-field_8c8086b" class="elementor-field-label">
+                        Picture							</label>
+                        <input size="1" required type="file" name="image" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="file">
+                                          </div>
+                        <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_c65b8a9 elementor-col-50">
+                        <label for="form-field-field_c65b8a9" class="elementor-field-label">
+                        Location							</label>
+                        <input size="1" type="text" name="location" class="elementor-field elementor-size-md  elementor-field-textual" placeholder="Property Location">
+      </div>
+                        <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+                                                <label for="form-field-message" class="elementor-field-label">
+                        Description							</label>
+            <textarea class="elementor-field-textual elementor-field  elementor-size-md" name="description" id="form-field-message" rows="5" placeholder="Message"></textarea>				</div>
+                        <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+      <button type="submit" class="elementor-button elementor-size-md">
+Submit property
+      </button>
+</div>
+</div>
+</form>
 				</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-471221b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="471221b" data-element_type="section">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-96c6da7" data-id="96c6da7" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<section class="elementor-section elementor-inner-section elementor-element elementor-element-f476d14 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f476d14" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6963d5a" data-id="6963d5a" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-225a3ea elementor-widget elementor-widget-heading animated fadeInUp" data-id="225a3ea" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">What can we help?</h2>		</div>
-</div>
-<div class="elementor-element elementor-element-1e3e774 elementor-widget elementor-widget-text-editor" data-id="1e3e774" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
-<section class="elementor-section elementor-inner-section elementor-element elementor-element-08925ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="08925ed" data-element_type="section">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-68fa97c animated fadeInUp" data-id="68fa97c" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-573dbac elementor-widget elementor-widget-elementskit-accordion" data-id="573dbac" data-element_type="widget" data-widget_type="elementskit-accordion.default">
-<div class="elementor-widget-container">
-<div class="ekit-wid-con">
-<div class="elementskit-accordion accoedion-primary" id="accordion-6399b3042b7e9">
-
-
-@foreach ($faqs as $faq)
-    @if ($faq->section == 1)
-    <div class="elementskit-card ">
-        <div class="elementskit-card-header" id="primaryHeading-0-573dbac">
-        <a href="#collapse-{{ $faq->id }}" class="ekit-accordion--toggler elementskit-btn-link" data-ekit-toggle="collapse" data-target="#Collapse-{{ $faq->id }}" aria-expanded="true" aria-controls="Collapse-{{ $faq->id }}">
-        
-        <span class="ekit-accordion-title">{{ ucfirst($faq->title) }}</span>
-        
-        
-        <div class="ekit_accordion_icon_group">
-        
-        
-        <div class="ekit_accordion_active_icon">
-        <!-- Active Icon -->
-        <i aria-hidden="true" class="icon-closed icon-right fas fa-chevron-circle-down"></i>                                    </div><div class="ekit_accordion_normal_icon">
-        <!-- Normal Icon -->
-        <i aria-hidden="true" class="icon-open icon-right fas fa-chevron-circle-right"></i>                                    </div>
-        
-        </div>
-        
-        
-        </a>
-        </div>
-        
-        <div id="Collapse-{{ $faq->id }}" class="collapse show" aria-labelledby="primaryHeading-0-573dbac" data-parent="#accordion-6399b3042b7e9" style="">
-        
-        <div class="elementskit-card-body ekit-accordion--content">
-        <p>{{ ucfirst($faq->body) }}.</p>                        </div>
-        
-        </div>
-        
-        </div><!-- .elementskit-card END -->
-    @endif
-@endforeach
-
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-761cd80 animated fadeInUp" data-id="761cd80" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:360}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-d32fd10 elementor-widget elementor-widget-elementskit-accordion" data-id="d32fd10" data-element_type="widget" data-widget_type="elementskit-accordion.default">
-<div class="elementor-widget-container">
-<div class="ekit-wid-con">
-<div class="elementskit-accordion accoedion-primary" id="accordion-6399b3042d912">
-
-
-
-<div class="elementskit-card ">
-<div class="elementskit-card-header" id="primaryHeading-1-d32fd10">
-<a href="#collapse-6f491396399b3042d912" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6f491396399b3042d912" aria-expanded="false" aria-controls="Collapse-6f491396399b3042d912">
-
-<span class="ekit-accordion-title">What are dividends? Do they get reinvested?</span>
-
-
-<div class="ekit_accordion_icon_group">
-<div class="ekit_accordion_normal_icon">
-<!-- Normal Icon -->
-<i aria-hidden="true" class="icon-open icon-right fas fa-chevron-circle-right"></i>                                    </div>
-
-<div class="ekit_accordion_active_icon">
-<!-- Active Icon -->
-<i aria-hidden="true" class="icon-closed icon-right fas fa-chevron-circle-down"></i>                                    </div>
-
-</div>
-
-
-</a>
-</div>
-
-<div id="Collapse-6f491396399b3042d912" class=" collapse" aria-labelledby="primaryHeading-1-d32fd10" data-parent="#accordion-6399b3042d912">
-
-<div class="elementskit-card-body ekit-accordion--content">
-<p>Velit sociosqu purus enim pharetra sed sem at iaculis. Felis ridiculus adipiscing dignissim eros pellentesque mus vitae litora. Felis nullam tortor phasellus viverra ut arcu. Euismod magnis ante convallis vulputate odio augue sit pretium dapibus.</p>                        </div>
-
-</div>
-
-</div><!-- .elementskit-card END -->
-
-</div>
-</div>		</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-</div>
-</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-dd7f484 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dd7f484" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3fba3c4" data-id="3fba3c4" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-ae62409 elementor-section-boxed elementor-section-height-default elementor-section-height-default animated fadeInDown" data-id="ae62409" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInDown&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7cbcfdd" data-id="7cbcfdd" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7053cb4 elementor-widget elementor-widget-heading" data-id="7053cb4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-3972254 elementor-widget elementor-widget-heading animated fadeInDown" data-id="3972254" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Investments that will make you grow</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Follow our social media</h2>		</div>
 				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c0607dc" data-id="c0607dc" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-17e8623 elementor-widget elementor-widget-text-editor" data-id="17e8623" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-738ba8f elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons animated fadeInUp" data-id="738ba8f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">
-							<p>Pharetra quisque dis odio phasellus hac ipsum parturient pede ac ut blandit. Consectetuer gravida aliquam et velit tortor aptent morbi ac.</p><p>Pede nisl est inceptos vehicula leo dictum risus etiam. Enim congue lacus pulvinar mollis class consectetur cursus pellentesque est mauris curae.</p>						</div>
+			<style>/*! elementor - v3.9.0 - 06-12-2022 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));height:calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#818a91;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#818a91}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-square elementor-animation-float elementor-repeater-item-1989fa1" href="#" target="_blank">
+						<span class="elementor-screen-only">Facebook-square</span>
+						<i class="fab fa-facebook-square"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-57a6886" href="#" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-float elementor-repeater-item-c7ff3d1" href="#" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-float elementor-repeater-item-0d74d77" href="#" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-animation-float elementor-repeater-item-46e6f72" href="#" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<i class="fab fa-linkedin-in"></i>					</a>
+				</span>
+					</div>
+				</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-af74b19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="af74b19" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fdb1908 animated fadeInRight" data-id="fdb1908" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-85859fa ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="85859fa" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con">        <!-- link opening -->
-                <!-- end link opening -->
-
-        <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-comment"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    Consultation                </h3>
-                        		  <p>Amet est imperdiet commodo ante placerat. Urna aenean ullamcorper sagittis.</p>
-                                        <div class="box-footer disable_hover_button">
-                    <div class="btn-wraper">
-                                                            <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-">
-                                        Chat Us                                    </a>
-                                                        </div>
-                </div>
-                    </div>
-        
-        
-                </div>
-        </div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a90c4fa" data-id="a90c4fa" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0707bc5 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="0707bc5" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con">        <!-- link opening -->
-                <!-- end link opening -->
-
-        <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-envelope-open"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    Ticket Support                </h3>
-                        		  <p>Amet est imperdiet commodo ante placerat. Urna aenean ullamcorper sagittis.</p>
-                                        <div class="box-footer disable_hover_button">
-                    <div class="btn-wraper">
-                                                            <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-">
-                                        Send Ticket                                    </a>
-                                                        </div>
-                </div>
-                    </div>
-        
-        
-                </div>
-        </div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7879e9a animated fadeInLeft" data-id="7879e9a" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-75b1654 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="75b1654" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con">        <!-- link opening -->
-                <!-- end link opening -->
-
-        <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-ui-dial-phone"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    Contact Us                </h3>
-                        		  <p>Amet est imperdiet commodo ante placerat. Urna aenean ullamcorper sagittis.</p>
-                                        <div class="box-footer disable_hover_button">
-                    <div class="btn-wraper">
-                                                            <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-">
-                                        Call Now                                    </a>
-                                                        </div>
-                </div>
-                    </div>
-        
-        
-                </div>
-        </div>		</div>
-				</div>
-					</div>
-		</div>
 							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-622cea6 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="622cea6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-
-	<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-78229cd" data-id="78229cd" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-cbe8d8d elementor-cta--skin-cover elementor-cta--valign-bottom elementor-bg-transform elementor-bg-transform-zoom-in elementor-invisible elementor-widget elementor-widget-call-to-action" data-id="cbe8d8d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="call-to-action.default">
-<div class="elementor-widget-container">
-<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css">		<div class="elementor-cta">
-<div class="elementor-cta__bg-wrapper">
-<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/bitcoin-coin-in-blue-neon-close-up-against-blurred-graphs-world-cryptocurrency.jpg);"></div>
-<div class="elementor-cta__bg-overlay"></div>
-</div>
-<div class="elementor-cta__content">
-
-<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Start To Invest And Earn More</h3>
-<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-Lorem ipsum dolor sit amet consectetur adipiscing elit dolor					</div>
-
-<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-<a class="elementor-cta__button elementor-button elementor-size-sm" href="#">
-Learn More					</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-
-
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-							</div>
-							@include('frontend.inc.footer')
+@include('frontend.inc.footer')

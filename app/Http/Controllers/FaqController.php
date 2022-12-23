@@ -2,33 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
-use App\Models\User;
-use App\Http\Controllers\AlertController;
 
-
-class UsersController extends Controller
+class FaqController extends Controller
 {
-    public function Dashboard()
-    {
-        return View('users.index');
-    }
-
-    public function BlockUser($id)
-    {
-            $block=User::find($id);
-            $block->status="blocked";
-            $block->save();
-            return back()->with(AlertController::SendAlert());
-    }
-    public function ActivateUser($id)
-    {
-            $block=User::find($id);
-            $block->status="active";
-            $block->save();
-            return back()->with(AlertController::SendAlert());
-    }
     /**
      * Display a listing of the resource.
      *
@@ -36,7 +13,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        return View('admin.users.index');
+        //
     }
 
     /**
@@ -79,7 +56,7 @@ class UsersController extends Controller
      */
     public function edit($id)
     {
-
+        //
     }
 
     /**
@@ -91,6 +68,7 @@ class UsersController extends Controller
      */
     public function update(Request $request, $id)
     {
+        //
     }
 
     /**

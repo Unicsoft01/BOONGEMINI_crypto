@@ -28,7 +28,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Starlight Responsive Bootstrap 4 Admin Template</title>
+    <title>{{ "Admin BoonGeminini" }}</title>
 
     <!-- vendor css -->
     <link href="{{ url('/') }}/assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -37,7 +37,7 @@
     <link href="{{ url('/') }}/assets/lib/highlightjs/github.css" rel="stylesheet">
     <link href="{{ url('/') }}/assets/lib/datatables/jquery.dataTables.css" rel="stylesheet">
     <link href="{{ url('/') }}/assets/lib/select2/css/select2.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
 
     <!-- Starlight CSS -->
     <link rel="stylesheet" href="{{ url('/') }}/assets/css/starlight.css">
@@ -46,27 +46,33 @@
   <body>
 
     <!-- ########## START: LEFT PANEL ########## -->
-    <div class="sl-logo"><a href=""><i class="icon ion-android-star-outline"></i> starlight</a></div>
+    <div class="sl-logo"><a href="/admin/dashboard"><i class="icon ion-android-star-outline"></i> Admin</a></div>
     <div class="sl-sideleft">
-      <div class="input-group input-group-search">
+      {{-- <div class="input-group input-group-search">
         <input type="search" name="search" class="form-control" placeholder="Search">
         <span class="input-group-btn">
           <button class="btn"><i class="fa fa-search"></i></button>
         </span><!-- input-group-btn -->
-      </div><!-- input-group -->
+      </div><!-- input-group --> --}}
 
       <label class="sidebar-label">Navigation</label>
       <div class="sl-sideleft-menu">
-        <a href="index.html" class="sl-menu-link">
+        <a href="{{ route('admin.dashboard') }}" class="sl-menu-link  @if(route('admin.dashboard')==url()->current()) active @endif">
           <div class="sl-menu-item">
             <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
             <span class="menu-item-label">Dashboard</span>
           </div><!-- menu-item -->
         </a><!-- sl-menu-link -->
-        <a href="widgets.html" class="sl-menu-link">
+        <a href="{{ route('Users.index') }}" class="sl-menu-link  @if(route('Users.index')==url()->current()) active @endif">
           <div class="sl-menu-item">
             <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
-            <span class="menu-item-label">Cards &amp; Widgets</span>
+            <span class="menu-item-label">Clients</span>
+          </div><!-- menu-item -->
+        </a><!-- sl-menu-link -->
+        <a href="{{ route('admin.dashboard') }}" class="sl-menu-link">
+          <div class="sl-menu-item">
+            <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+            <span class="menu-item-label">Support Tickets</span>
           </div><!-- menu-item -->
         </a><!-- sl-menu-link -->
         <a href="#" class="sl-menu-link">
@@ -175,17 +181,13 @@
         <nav class="nav">
           <div class="dropdown">
             <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
-              <span class="logged-name">Jane<span class="hidden-md-down"> Doe</span></span>
+              <span class="logged-name"><span class="hidden-md-down">{{  Auth::User()->name }}</span></span>
               <img src="{{ url('/') }}/assets/img/img3.jpg" class="wd-32 rounded-circle" alt="">
             </a>
             <div class="dropdown-menu dropdown-menu-header wd-200">
               <ul class="list-unstyled user-profile-nav">
                 <li><a href=""><i class="icon ion-ios-person-outline"></i> Edit Profile</a></li>
-                <li><a href=""><i class="icon ion-ios-gear-outline"></i> Settings</a></li>
-                <li><a href=""><i class="icon ion-ios-download-outline"></i> Downloads</a></li>
-                <li><a href=""><i class="icon ion-ios-star-outline"></i> Favorites</a></li>
-                <li><a href=""><i class="icon ion-ios-folder-outline"></i> Collections</a></li>
-                <li><a href=""><i class="icon ion-power"></i> Sign Out</a></li>
+                <li><a href="{{ route('admin.logout') }}"><i class="icon ion-power"></i> Sign Out</a></li>
               </ul>
             </div><!-- dropdown-menu -->
           </div><!-- dropdown -->
@@ -203,7 +205,7 @@
     <!-- ########## END: HEAD PANEL ########## -->
 
     <!-- ########## START: RIGHT PANEL ########## -->
-    <div class="sl-sideright">
+    {{-- <div class="sl-sideright">
       <ul class="nav nav-tabs nav-fill sidebar-tabs" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" data-toggle="tab" role="tab" href="#messages">Messages (2)</a>
@@ -356,7 +358,7 @@
         </div><!-- #notifications -->
 
       </div><!-- tab-content -->
-    </div><!-- sl-sideright -->
+    </div><!-- sl-sideright --> --}}
     <!-- ########## END: RIGHT PANEL ########## --->
 
     <!-- ########## START: MAIN PANEL ########## -->
@@ -382,7 +384,7 @@
         $('#datatable1').DataTable({
           responsive: true,
           language: {
-            searchPlaceholder: 'Search{{ url('/') }}/assets.',
+            searchPlaceholder: 'Search...',
             sSearch: '',
             lengthMenu: '_MENU_ items/page',
           }
@@ -400,5 +402,8 @@
       });
     </script>
 
+     
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+   @include('notification')
   </body>
 </html>

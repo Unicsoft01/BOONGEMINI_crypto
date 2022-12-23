@@ -143,19 +143,24 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-cd19f97 elementor-widget elementor-widget-elementskit-heading animated fadeInDown" data-id="cd19f97" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="elementskit-heading.default">
 				<div class="elementor-widget-container">
-			<div class="ekit-wid-con"><div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title ">What is <span><span>Boongemini</span></span>?</h2></div></div>		</div>
+			<div class="ekit-wid-con"><div class="ekit-heading elementskit-section-title-wraper text_left   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "> Boon<span><span>gemini</span></span></h2></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-e0b3516 elementor-widget elementor-widget-text-editor" data-id="e0b3516" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Malesuada vulputate pharetra natoque morbi id ex nec eleifend neque interdum. Cras vel scelerisque dis nisi magnis phasellus tempor. Nostra lobortis sagittis nulla finibus metus.</p><p>Dis laoreet pharetra fusce feugiat est habitant diam eros senectus rhoncus. Ad suscipit curabitur primis taciti dolor.</p>						</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>
+
+
+
+<p>We see investing differently. Today's financial system is complex, exclusive and expensive - making it hard for the typical person to start investing but we believe that digital currencies will revolutionize out legacy economics, political and social sysgtems.</p><p>
+	With that transformation comes a meaningful generated shift in how institutions and individuals approcah investing. That's  where BoonGemini investments come in.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-79cd780 elementor-widget elementor-widget-button" data-id="79cd780" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="{{ route('property.submit') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Discover More</span>
+						<span class="elementor-button-text">Submit a Property More</span>
 		</span>
 					</a>
 		</div>
@@ -173,7 +178,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-33330dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="33330dc" data-element_type="section">
+				{{-- <section class="elementor-section elementor-inner-section elementor-element elementor-element-33330dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="33330dc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fd4ccea elementor-invisible" data-id="fd4ccea" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;bounceInUp&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -276,7 +281,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					</div>
 		</div>
 							</div>
-		</section>
+		</section> --}}
 					</div>
 		</div>
 							</div>
@@ -328,7 +333,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
 								<div class="elementor-element elementor-element-6eb944f elementor-invisible elementor-widget elementor-widget-elementskit-heading" data-id="6eb944f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="elementskit-heading.default">
 				<div class="elementor-widget-container">
-			<div class="ekit-wid-con"><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemi</span></span> is trusted by 6+ million users in 175+ countries</h2></div></div>		</div>
+			<div class="ekit-wid-con"><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "><span><span>BoonGemi</span></span> is trusted by more than 630 team members and 2.7 million users in 13+ countries</h2></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-bc8b2e7 elementor-widget elementor-widget-text-editor" data-id="bc8b2e7" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
