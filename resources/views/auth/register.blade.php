@@ -163,6 +163,11 @@ Email
 
 
 </div>
+<div class="block" style="margin-top: 10px;">
+<a class="" href="{{ route('login') }}">
+    {{ __('Already have an account? Login') }}
+</a>
+</div>
 </div>
 </div>
 </div>

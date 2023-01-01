@@ -1,12 +1,12 @@
-
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
 <link rel="stylesheet" href="https://pictogrammers.github.io/@mdi/font/5.4.55/css/materialdesignicons.min.css">
-<link rel="stylesheet" href="{{ url('/') }}/assets/icofont/icofont.min.css">
+<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/assets/icofont/icofont.min.css">
 
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ url('/') }}/assets/lib/font-awesome/css/fontawesome.min.css' media='all' /> 		
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://kitnew.moxcreative.com/gettrade/wp-content/assets/lib/font-awesome/css/fontawesome.min.css' media='all' /> 		
 <script src="{{ url('/') }}/5a6e542bfa.js" crossorigin="anonymous"></script>
 
 
-<section class="elementor-section elementor-top-section elementor-element elementor-element-5d740e0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5d740e0" data-element_type="section">
+<section style="background:white;" class="elementor-section elementor-top-section elementor-element elementor-element-5d740e0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5d740e0" data-element_type="section">
 
       <div class="elementor-container elementor-column-gap-custom">
 
@@ -17,7 +17,7 @@
 
                               <div class="elementor-widget-container">
                                     <style>/*! elementor - v3.9.0 - 06-12-2022 */ .elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>								
-                                    <img width="300" height="79" src="{{ url('/') }}/assets/img/boongemini.png" class="attachment-full size-full wp-image-40" alt="" loading="lazy" />
+                                    <img width="300" height="79" src="{{ url('/') }}/assets/img/{{ $settings->header_logo }}" class="attachment-full size-full wp-image-40" alt="" loading="lazy" />
                               </div>
                         </div>
                   </div>
@@ -54,10 +54,12 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/faq" class="elementor-item">FAQs</a></li>
 
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="{{ route('Deposit.index') }}" class="elementor-item">Invest</a></li>
+
                                           </ul>
                                     </nav>
 
-                                    <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+                                    <div style="margin-left: 260%; " class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 
                                           <i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open oi oi-menu"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
 
@@ -69,21 +71,12 @@
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="about-us/" class="elementor-item" tabindex="-1">About Us</a></li>
 
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="/services/" class="elementor-item" tabindex="-1">Services</a>
+                                                
 
-                                                      <ul class="sub-menu elementor-nav-menu--dropdown">
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="/service-detail/" class="elementor-sub-item" tabindex="-1">Service Detail</a></li>
-
-                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="/pricing/" class="elementor-sub-item" tabindex="-1">Pricing</a></li>
-
-                                                      </ul>
-
-                                                </li>
-
-                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/contact" class="elementor-item" tabindex="-1">Contact</a></li>
 
                                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="/faq/" class="elementor-item" tabindex="-1">FAQs</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="{{ route('Deposit.index') }}" class="elementor-item" tabindex="-1">Invest</a></li>
 
                                           </ul>
                                     </nav>
@@ -96,7 +89,7 @@
 
             </div>
 
-            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c56bda8" data-id="c56bda8" data-element_type="column">
+            {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c56bda8" data-id="c56bda8" data-element_type="column">
 
                   <div class="elementor-widget-wrap elementor-element-populated">
 
@@ -124,7 +117,7 @@
 
                   </div>
 
-            </div>
+            </div> --}}
 
       </div>
 

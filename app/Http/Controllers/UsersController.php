@@ -103,4 +103,9 @@ class UsersController extends Controller
     {
         //
     }
+
+    public function UserBank()
+    {
+        return view('bank.index');
+    }
 }

@@ -1,5 +1,6 @@
 @php
     $faqs =  App\Models\Faq::get();
+    $settings =  App\Models\Settings::find(1);
 @endphp
 <html lang="en-US"><head>
 	<meta charset="UTF-8">
@@ -319,37 +320,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a90c4fa" data-id="a90c4fa" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-0707bc5 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="0707bc5" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con">        <!-- link opening -->
-                <!-- end link opening -->
-
-        <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-envelope-open"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    Ticket Support                </h3>
-                        		  <p>Amet est imperdiet commodo ante placerat. Urna aenean ullamcorper sagittis.</p>
-                                        <div class="box-footer disable_hover_button">
-                    <div class="btn-wraper">
-                                                            <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-">
-                                        Send Ticket                                    </a>
-                                                        </div>
-                </div>
-                    </div>
-        
-        
-                </div>
-        </div>		</div>
-				</div>
-					</div>
-		</div>
 				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7879e9a animated fadeInLeft" data-id="7879e9a" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-75b1654 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="75b1654" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
@@ -403,11 +373,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 <h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Start To Invest And Earn More</h3>
 <div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-Lorem ipsum dolor sit amet consectetur adipiscing elit dolor					</div>
+an investment that pays double					</div>
 
 <div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-<a class="elementor-cta__button elementor-button elementor-size-sm" href="#">
-Learn More					</a>
+<a class="elementor-cta__button elementor-button elementor-size-sm" href="/Deposit">
+Invest Now				</a>
 </div>
 </div>
 </div>
@@ -426,5 +396,5 @@ Learn More					</a>
 </div>
 </div>
 </section>
-							</div>
+</div>
 							@include('frontend.inc.footer')

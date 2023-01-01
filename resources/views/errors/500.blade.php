@@ -100,21 +100,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>
 
 
-<p>Apologies, the page you are looking for seems not to be available at the moment.   <br><br>But if its so important you can chat the Developers on whatsapp </p>						</div>
+<p>Apologies, the page you are looking for seems not to be available at the moment.   </p>						</div>
 				</div>
-				<div class="elementor-element elementor-element-70726bf elementor-align-center elementor-widget elementor-widget-button" data-id="70726bf" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="https://wa.me/+2349077957088?text=Hello+Unicsoft+i+tried+some+pages+on+boomgemini+and+it+failed.+Please+what+is+wrong" class="elementor-button-link elementor-button elementor-size-lg" role="button">
-						<span class="elementor-button-content-wrapper">
-							<span class="elementor-button-icon elementor-align-icon-left">
-				<i aria-hidden="true" class="fas fa-chevron-circle-left"></i>			</span>
-						<span class="elementor-button-text">Click to Send Message</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
+				{{-- < --}}
 					</div>
 		</div>
 							</div>

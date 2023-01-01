@@ -75,7 +75,7 @@ class PropertyController extends Controller
                 \Mail::send('email', $user_mail_msg, function($message) use ($user_mail_msg){
                     $message->to($user_mail_msg['recipient'])->from($user_mail_msg['fromEmail'])->subject($user_mail_msg['subject']);
                 });
-            return back()->with(AlertController::SendAlert());
+            return back()->with(AlertController::SendAlert('success', 'Your request has been sent successfully, we will notify you via mail'));
 
         }
 

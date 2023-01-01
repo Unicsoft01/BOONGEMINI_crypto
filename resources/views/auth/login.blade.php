@@ -165,6 +165,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 </div>
+<div class="block" style="margin-top: 10px;">
+    <a class="" href="{{ route('register') }}">
+        {{ __('Dont have an account? Sign Up') }}
+    </a>
+</div>
 </div>
 </div>
 </div>

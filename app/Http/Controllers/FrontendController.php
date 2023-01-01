@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class FrontendController extends Controller
 {
@@ -49,5 +50,24 @@ class FrontendController extends Controller
     public function SubmitPropery()
     {
         return view('frontend.submit-a-property');
+    }
+
+    public function SaveContact(Request $request)
+    {
+        // name
+        // phone
+        // email
+        // subject
+        // message
+        // return $request;
+        $data['name'] = $request->name;
+        $data['phone'] = $request->phone;
+        $data['email'] = $request->email;
+        $data['subject'] = $request->subject;
+        $data['message'] = $request->message;
+        if (Contact::create($data))
+        {
+            return back()->with(AlertController::SendAlert('success', 'Request recieved, we will reach you via mail'));
+        }
     }
 }

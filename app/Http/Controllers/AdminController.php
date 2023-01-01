@@ -33,11 +33,6 @@ use App\Http\Controllers\AlertController;
 
 class AdminController extends Controller
 {
-        
-    // public function __construct()
-    // {		
-    //     $this->middleware('auth');
-    // }
 
     // public function Destroyuser($id)
     // {
@@ -70,6 +65,87 @@ class AdminController extends Controller
         return view('admin.users.applications', compact('pageTitle'));
     }
     
+    public function UpdateContact(Request $request)
+    {
+        $setting = Settings::find(1);
+        $setting->email = $request->email;
+        $setting->address = $request->address;
+        $setting->phone = $request->phone;
+        $res = $setting->save();      
+        if ($res) {
+            return back()->with(AlertController::SendAlert());
+        } else {
+            return back()->with(AlertController::SendAlert('error', 'An error occured'));
+        }
+    }
+    
+    public function UpdateHeaderLogo()
+    {
+        return view('admin.settings.index');
+    }
+
+    public function StoreHeaderLogo(Request $request)
+    {
+        $hl = Settings::find(1);
+        $headerLogo = "header".rand(6784,98765).'.'.$request->header_logo->extension();  
+        $request->header_logo->move(public_path('assets/img/'), $headerLogo);
+        // save header
+
+        $hl->header_logo = $headerLogo;
+
+        $res = $hl->save();   
+        if ($res) {
+            return back()->with(AlertController::SendAlert());
+        }
+        else
+        {
+            return back()->with('alert', 'Problem With Updating Logo');
+        }
+        // return $data;
+    }
+
+    public function StoreFooterLogo(Request $request)
+    {
+        // return $request;
+        $hl = Settings::find(1);
+        $headerLogo = "footer".rand(6784,98765).'.'.$request->footer_logo->extension();  
+        $request->footer_logo->move(public_path('assets/img/'), $headerLogo);
+        // save header
+
+        $hl->footer_logo = $headerLogo;
+
+        $res = $hl->save();   
+        if ($res) {
+            return back()->with(AlertController::SendAlert());
+        }
+        else
+        {
+            return back()->with('alert', 'Problem With Updating Logo');
+        }
+    }
+
+    public function storeFavicon(Request $request)
+    {
+        // return $request;
+        $hl = Settings::find(1);
+        $headerLogo = "favicon".rand(6784,98765).'.'.$request->favicon->extension();  
+        $request->favicon->move(public_path('assets/img/'), $headerLogo);
+        // save header
+
+        $hl->favicon = $headerLogo;
+
+        $res = $hl->save();   
+        if ($res) {
+            return back()->with(AlertController::SendAlert());
+        }
+        else
+        {
+            return back()->with('alert', 'Problem With Updating Logo');
+        }
+    }
+
+
+
     // public function Messages()
     // {
     //     $set = $this->Sets();

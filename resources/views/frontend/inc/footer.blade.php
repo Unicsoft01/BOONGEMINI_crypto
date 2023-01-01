@@ -1,3 +1,6 @@
+@php
+	$settings = App\Models\Settings::find(1);
+@endphp
 <div data-elementor-type="footer" data-elementor-id="62" class="elementor elementor-62 elementor-location-footer">
 
 	<section class="elementor-section elementor-top-section elementor-element elementor-element-c1ecc37 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1ecc37" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
@@ -43,7 +46,7 @@
 					<section class="elementor-section elementor-inner-section elementor-element elementor-element-e49f2cd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e49f2cd" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 							<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-9f97dd7" data-id="9f97dd7" data-element_type="column">
-								<div class="elementor-widget-wrap elementor-element-populated">
+								{{-- <div class="elementor-widget-wrap elementor-element-populated">
 									<div class="elementor-element elementor-element-90ddedc elementor-widget elementor-widget-heading" data-id="90ddedc" data-element_type="widget" data-widget_type="heading.default">
 										<div class="elementor-widget-container">
 											<h2 class="elementor-heading-title elementor-size-default">Products</h2>		
@@ -75,7 +78,7 @@
 											</ul>
 										</div>
 									</div>
-								</div>
+								</div> --}}
 							</div>
 				
 							<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-14dfb36" data-id="14dfb36" data-element_type="column">
@@ -85,7 +88,7 @@
 				
 									<div class="elementor-widget-container">
 			
-										<h2 class="elementor-heading-title elementor-size-default">Company</h2>	
+										<h2 class="elementor-heading-title elementor-size-default">Active Links</h2>	
 									</div>
 				
 								</div>
@@ -108,9 +111,9 @@
 											</li>
 								
 											<li class="elementor-icon-list-item">
-														<a href="#">
+														<a href="faq">
 
-														<span class="elementor-icon-list-text">Sitemap</span>
+														<span class="elementor-icon-list-text">FAQs</span>
 														</a>
 												</li>
 											<li class="elementor-icon-list-item">
@@ -130,32 +133,12 @@
 		
 						</div>
 				
-						<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2ca8251" data-id="2ca8251" data-element_type="column">
-			
-							<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-818f664 elementor-widget elementor-widget-heading" data-id="818f664" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Customers</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-7fec87a elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7fec87a" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<a href="#">
-
-											<span class="elementor-icon-list-text">Support</span>
-											</a>
-									</li>
-						</ul>
-				</div>
-				</div>
-					</div>
-		</div>
+						{{-- <di --}}
 				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6bee7ce" data-id="6bee7ce" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-8ec0242 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="8ec0242" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-                                                      <img width="300" height="79" src="{{ url('/') }}/assets/img/boongemini_white.png" class="attachment-full size-full wp-image-41" alt="" loading="lazy">															</div>
+                                                      <img width="300" height="79" src="{{ url('/') }}/assets/img/{{ $settings->footer_logo }}" class="attachment-full size-full wp-image-41" alt="" loading="lazy">															</div>
 				</div>
 				<div class="elementor-element elementor-element-8c3c6a3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8c3c6a3" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
@@ -163,17 +146,19 @@
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
-										<span class="elementor-icon-list-text">No. Gov. Y.Y Bello Avenue, Opp. Dangana Boys.</span>
+										<span class="elementor-icon-list-text">
+											{{ $settings->address }}
+										</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="mdi mdi-email"></i>						</span>
-										<span class="elementor-icon-list-text">support@boongemini.com.ng</span>
+										<span class="elementor-icon-list-text">{{ $settings->email }}</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="icofont icofont-ui-dial-phone"></i>						</span>
-										<span class="elementor-icon-list-text">+23409077957088</span>
+										<span class="elementor-icon-list-text">{{ $settings->phone }}</span>
 									</li>
 						</ul>
 				</div>
@@ -304,4 +289,9 @@ var ekit_config = {"ajaxurl":"https:\/\/kitnew.moxcreative.com\/gettrade\/wp-adm
 
 
 
-<script src="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"></script></body></html>
+<script src="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+@include('notification')
+
+</body></html>

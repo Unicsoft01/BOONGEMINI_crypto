@@ -1,6 +1,6 @@
 <html lang="en-US"><head>
 	<meta charset="UTF-8">
-		<title>User Login Page - Login to Continue</title>
+		<title>Admin Login Page - Login to Continue</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Feed" href="https://kitnew.moxcreative.com/gettrade/feed/">
 <link rel="alternate" type="application/rss+xml" title="GetTrade » Comments Feed" href="https://kitnew.moxcreative.com/gettrade/comments/feed/">
@@ -91,7 +91,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-ac53444 elementor-widget elementor-widget-heading" data-id="ac53444" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h4 class="elementor-heading-title elementor-size-default">Login!</h4>		
+			<h4 class="elementor-heading-title elementor-size-default">Admin!</h4>		
             </div>
 				</div>
 				<div class="elementor-element elementor-element-26ffa7c elementor-widget elementor-widget-text-editor" data-id="26ffa7c" data-element_type="widget" data-widget_type="text-editor.default">

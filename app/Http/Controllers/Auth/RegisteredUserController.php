@@ -65,7 +65,17 @@ class RegisteredUserController extends Controller
         event(new Registered($user));
 
         Auth::login($user);
-
+        // incase if user is attempting a protect page
+        if (session('url.intended')) {
+            return redirect(session('url.intended'));
+        }
+        // below will redirect user to dashboard
         return redirect(RouteServiceProvider::HOME);
+
+        // event(new Registered($user));
+
+        // Auth::login($user);
+
+        // return redirect(RouteServiceProvider::HOME);
     }
 }

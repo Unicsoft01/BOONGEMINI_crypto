@@ -1,3 +1,6 @@
+@php
+	$settings = App\Models\Settings::find(1);
+@endphp
 <html lang="en-US"><head>
 	<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -158,9 +161,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				<div class="elementor-element elementor-element-79cd780 elementor-widget elementor-widget-button" data-id="79cd780" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="{{ route('property.submit') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Submit a Property More</span>
+			<a href="{{ route('Deposit.index') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">Start investing</span>
 		</span>
 					</a>
 		</div>
@@ -292,16 +294,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-62a7459 elementor-invisible" data-id="62a7459" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-e02b4c7 elementor-widget elementor-widget-heading" data-id="e02b4c7" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Origins</h2>		</div>
+				{{-- <div class="elementor-widget-container"> --}}
+			{{-- <h2 class="elementor-heading-title elementor-size-default">History</h2>		</div> --}}
 				</div>
 				<div class="elementor-element elementor-element-19bde33 elementor-widget elementor-widget-text-editor" data-id="19bde33" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Consectetuer egestas eget eleifend ut faucibus risus per.</p>						</div>
+							<p>Relieable Company</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-ef4a382 elementor-widget elementor-widget-text-editor" data-id="ef4a382" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Environmental care is the most profitable investment.</p>						</div>
+							<p>A better life requires a Reliable Investment</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -309,14 +311,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-6319655 elementor-widget elementor-widget-text-editor" data-id="6319655" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Enim adipiscing feugiat per dis sem. Auctor duis parturient quisque lorem aenean viverra. Justo cubilia turpis litora ipsum erat fermentum pellentesque maximus torquent. Dictumst sed suscipit purus interdum auctor nam congue ultricies lorem torquent ipsum. Nunc lectus justo curabitur litora rhoncus malesuada quam eu dictumst quisque. Facilisi class sagittis vestibulum porta eu dignissim elit lorem.</p><p>Sollicitudin ridiculus efficitur eleifend malesuada a. Purus integer tellus sed ligula tempus ullamcorper ante. Tellus taciti torquent turpis dapibus curae habitant pulvinar letius fermentum. Malesuada eros libero augue posuere sagittis nam vitae ante aenean. Potenti adipiscing augue sollicitudin nunc consequat.</p><p>Class hendrerit eros potenti proin ornare nec blandit. Libero magnis class viverra consectetur turpis sed dui vivamus et. Penatibus taciti tempus sed torquent blandit maximus feugiat. Laoreet euismod eros senectus penatibus fames sollicitudin cursus mattis bibendum finibus tortor. Malesuada sem amet nisl sodales quisque. Natoque nibh hendrerit suscipit blandit netus scelerisque lectus.</p>						</div>
+							<p>BoonGemini was founded in 2015 in Minnesota, USA with the aim of making investing in Cryptocurrency as well as Real Estate Properties accessible for everyone. Our goals since day one was to reimagine what it means to invest and earn by making simple, easy-to-use financial assets for everyone. Now, 7 years later, and with more than 630 team members and 2.7 million users.  We’re one of the fastest growing Fintechs in North America. With a PSD2 payment service provider licence and E-Money licence, state-of-the-art security and streamlined user experience, we make it possible for both first-time investors and seasoned experts to invest in what they believe in.   Our user-friendly, trade-everything Crypto and  Properties Company empowers you to invest in the stocks, Real Estate and Cryptocurrencies of your choice with any amount best suitable for you.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-f15d476 elementor-widget elementor-widget-button" data-id="f15d476" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="{{ route('Deposit.index') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">More About Us</span>
+						<span class="elementor-button-text">Start investing</span>
 		</span>
 					</a>
 		</div>
@@ -337,15 +339,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				</div>
 				<div class="elementor-element elementor-element-bc8b2e7 elementor-widget elementor-widget-text-editor" data-id="bc8b2e7" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+							<p>We believe every investor should have access to high quality real estate and blockchain assets.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-043deba elementor-widget elementor-widget-image-carousel e-widget-swiper" data-id="043deba" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;3&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper-container swiper-container-initialized swiper-container-horizontal" dir="ltr">
-			<div class="elementor-image-carousel swiper-wrapper" style="transform: translate3d(-537.333px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="1"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-264.png" alt="logoipsum-264"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-289.png" alt="logoipsum-289"></figure></div><div class="swiper-slide swiper-slide-duplicate" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="3"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-236-1.png" alt="logoipsum-236 1"></figure></div>
-								<div class="swiper-slide swiper-slide-prev" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="0"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-285.png" alt="logoipsum-285"></figure></div><div class="swiper-slide swiper-slide-active" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="1"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-264.png" alt="logoipsum-264"></figure></div><div class="swiper-slide swiper-slide-next" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-289.png" alt="logoipsum-289"></figure></div><div class="swiper-slide" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="3"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-236-1.png" alt="logoipsum-236 1"></figure></div>			<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="0"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-285.png" alt="logoipsum-285"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="1"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-264.png" alt="logoipsum-264"></figure></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 94.3333px; margin-right: 40px;" data-swiper-slide-index="2"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-289.png" alt="logoipsum-289"></figure></div></div>
-																<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>
+
+
+@include('frontend.inc.partners')
 				</div>
 				</div>
 					</div>
@@ -366,30 +368,30 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-1bf5658 elementor-widget elementor-widget-heading" data-id="1bf5658" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Why Choose Us</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">How it works</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-5062a88 elementor-widget elementor-widget-heading" data-id="5062a88" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">An investment that takes you to great heights</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Our investment Strategies</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-6df5ce4 elementor-widget elementor-widget-text-editor" data-id="6df5ce4" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+							<p>To start and make a successful investment you will have to follow our below steps, there are easy and simple.</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-5e0b2cc elementor-position-left elementor-mobile-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="5e0b2cc" data-element_type="widget" data-widget_type="icon-box.default">
 				<div class="elementor-widget-container">
 			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
 						<div class="elementor-icon-box-icon">
 				<span class="elementor-icon elementor-animation-">
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
+				<i aria-hidden="true" class="fa fa-sign-in"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
 				<div class="elementor-icon-box-title">
 					<span>
-						Trusted by Investor					</span>
+						Create an account/Login						</span>
 				</div>
 									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
+										Your account helps keep all your documents and investment details in one place							</p>
 							</div>
 		</div>
 				</div>
@@ -399,15 +401,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<div class="elementor-icon-box-wrapper">
 						<div class="elementor-icon-box-icon">
 				<span class="elementor-icon elementor-animation-">
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
+				<i aria-hidden="true" class="fa fa-money"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
 				<div class="elementor-icon-box-title">
 					<span>
-						Invest With Confidence					</span>
+						Make a deposit					</span>
 				</div>
 									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
+						
+Choose your preferred investment plan, Copy our address/account detail, make a deposit and submit an evidence of your deposit.								</p>
 							</div>
 		</div>
 				</div>
@@ -417,15 +420,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<div class="elementor-icon-box-wrapper">
 						<div class="elementor-icon-box-icon">
 				<span class="elementor-icon elementor-animation-">
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
+				<i aria-hidden="true" class="fa fa-refresh"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
 				<div class="elementor-icon-box-title">
 					<span>
-						Secure Platform					</span>
+						Withdraw when due							</span>
 				</div>
 									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
+						
+Allow your Investment process to complete, click on withdrawal to withdraw fun. Enjoy!!	 					</p>
 							</div>
 		</div>
 				</div>

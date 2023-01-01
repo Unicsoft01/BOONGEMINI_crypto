@@ -1,10 +1,13 @@
+@php
+	$settings = App\Models\Settings::find(1);
+@endphp
 <!doctype html>
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
-<title>Homepage &#8211; GetTrade</title>
+<title>Homepage &#8211; Boongemini</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel="alternate" type="application/rss+xml" title="GetTrade &raquo; Feed" href="https://kitnew.moxcreative.com/gettrade/feed/" />
 <link rel="alternate" type="application/rss+xml" title="GetTrade &raquo; Comments Feed" href="https://kitnew.moxcreative.com/gettrade/comments/feed/" />
@@ -88,7 +91,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel="alternate" type="application/json+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Fhomepage%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://kitnew.moxcreative.com/gettrade/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fkitnew.moxcreative.com%2Fgettrade%2Ftemplate-kit%2Fhomepage%2F&#038;format=xml" />
 </head>
-<body class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-99 elementor-default elementor-template-full-width elementor-kit-20 elementor-page elementor-page-99">
+<body style="background:rgb(228, 226, 226);" class="envato_tk_templates-template envato_tk_templates-template-elementor_header_footer single single-envato_tk_templates postid-99 elementor-default elementor-template-full-width elementor-kit-20 elementor-page elementor-page-99">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
 <a class="skip-link screen-reader-text" href="#content">
@@ -132,28 +135,6 @@ Skip to content</a>
 					</a>
 		</div>
 				</div>
-				</div>
-				<div class="elementor-element elementor-element-177374c elementor-widget__width-auto ekit-equal-height-disable elementor-invisible elementor-widget elementor-widget-elementskit-icon-box" data-id="177374c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:1440}" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" >        <!-- link opening -->
-                <a href="#" target="_self" rel="" class="ekit_global_links">
-                <!-- end link opening -->
-
-        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  text-center">
-                    <i aria-hidden="true" class="elementkit-infobox-icon mdi mdi-play-circle-outline"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    View Intro                </h3>
-                                            </div>
-        
-        
-                </div>
-                </a>
-        </div>		</div>
 				</div>
 					</div>
 		</div>
@@ -208,7 +189,7 @@ Skip to content</a>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-bdb493c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bdb493c" data-element_type="section">
+				<section style="background:rgb(212, 211, 211); border-radius: 2pc; " class="elementor-section elementor-top-section elementor-element elementor-element-bdb493c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bdb493c" data-element_type="section">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-017b73d" data-id="017b73d" data-element_type="column">
@@ -224,118 +205,17 @@ Skip to content</a>
 				<div class="elementor-element elementor-element-eaf5688 elementor-widget elementor-widget-image-carousel" data-id="eaf5688" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;4&quot;,&quot;slides_to_show_tablet&quot;:&quot;4&quot;,&quot;slides_to_show_mobile&quot;:&quot;3&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
-			<div class="elementor-image-carousel swiper-wrapper">
-								<div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-285.png" alt="logoipsum-285" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-264.png" alt="logoipsum-264" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-289.png" alt="logoipsum-289" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/logoipsum-236-1.png" alt="logoipsum-236 1" /></figure></div>			</div>
-																</div>
+.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		
+
+@include('frontend.inc.partners')
+
 				</div>
 				</div>
 					</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-50f75ea elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="50f75ea" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bedb90c" data-id="bedb90c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-e3e7381 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="e3e7381" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInDown&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a59f39f" data-id="a59f39f" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-b5ae8f4 elementor-widget elementor-widget-heading" data-id="b5ae8f4" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Relieable Company</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-317104e elementor-widget elementor-widget-heading" data-id="317104e" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">A better life requires a Reliable Investment</h2>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24fe976" data-id="24fe976" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-d12f1d8 elementor-widget elementor-widget-text-editor" data-id="d12f1d8" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>BoonGemini was founded in 2015 in Minnesota, USA with the aim of making investing in Cryptocurrency as well as Real Estate Properties accessible for everyone. Our goals since day one was to reimagine what it means to invest and earn by making simple, easy-to-use financial assets for everyone. Now, 7 years later, and with more than 630 team members and 2.7 million users.  We’re one of the fastest growing Fintechs in North America. With a PSD2 payment service provider licence and E-Money licence, state-of-the-art security and streamlined user experience, we make it possible for both first-time investors and seasoned experts to invest in what they believe in.   Our user-friendly, trade-everything Crypto and  Properties Company empowers you to invest in the stocks, Real Estate and Cryptocurrencies of your choice with any amount best suitable for you.</p>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-eb07ba3 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eb07ba3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fa12258" data-id="fa12258" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-df1dd66 elementor-widget elementor-widget-counter" data-id="df1dd66" data-element_type="widget" data-widget_type="counter.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.9.0 - 06-12-2022 */
-.elementor-counter .elementor-counter-number-wrapper{display:flex;font-size:69px;font-weight:600;line-height:1}.elementor-counter .elementor-counter-number-prefix,.elementor-counter .elementor-counter-number-suffix{flex-grow:1;white-space:pre-wrap}.elementor-counter .elementor-counter-number-prefix{text-align:right}.elementor-counter .elementor-counter-number-suffix{text-align:left}.elementor-counter .elementor-counter-title{text-align:center;font-size:19px;font-weight:400;line-height:2.5}</style>		<div class="elementor-counter">
-			<div class="elementor-counter-number-wrapper">
-				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="16" data-from-value="0" data-delimiter=",">2.7M</span>
-				<span class="elementor-counter-number-suffix">+</span>
-			</div>
-							<div class="elementor-counter-title">Users</div>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-57596bb" data-id="57596bb" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-9f33efa elementor-widget elementor-widget-counter" data-id="9f33efa" data-element_type="widget" data-widget_type="counter.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-counter">
-			<div class="elementor-counter-number-wrapper">
-				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="650" data-from-value="0" data-delimiter=",">13</span>
-				<span class="elementor-counter-number-suffix">+</span>
-			</div>
-							<div class="elementor-counter-title">Countries</div>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-44d735b" data-id="44d735b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e80c482 elementor-widget elementor-widget-counter" data-id="e80c482" data-element_type="widget" data-widget_type="counter.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-counter">
-			<div class="elementor-counter-number-wrapper">
-				<span class="elementor-counter-number-prefix">$</span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="50" data-from-value="0" data-delimiter=",">50</span>
-				<span class="elementor-counter-number-suffix">Million</span>
-			</div>
-							<div class="elementor-counter-title">Charter Capital</div>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-c9b2d28" data-id="c9b2d28" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-32ea43b elementor-widget elementor-widget-counter" data-id="32ea43b" data-element_type="widget" data-widget_type="counter.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-counter">
-			<div class="elementor-counter-number-wrapper">
-				<span class="elementor-counter-number-prefix"></span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="7" data-from-value="0" data-delimiter=",">7</span>
-				<span class="elementor-counter-number-suffix">yrs</span>
-			</div>
-							<div class="elementor-counter-title">Of Experience</div>
-					</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
+ 
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-45efda4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="45efda4" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d2fbc5" data-id="3d2fbc5" data-element_type="column">
@@ -383,7 +263,7 @@ Skip to content</a>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-											<i class="icon-arrow-right"></i>                                                                           </a>
+											<i class="fa fa-arrow-right"></i>                                                                           </a>
                                                         </div>
                 </div>
                     </div>
@@ -404,7 +284,7 @@ Skip to content</a>
         <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
                     <div class="elementskit-box-header elementor-animation-">
                 <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-chart-histogram"></i>
+                    <i aria-hidden="true" class="elementkit-infobox-icon fa fa-line-chart"></i>
                 </div>
           </div>
                         <div class="box-body">
@@ -414,7 +294,7 @@ Skip to content</a>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-											<i class="icon-arrow-right"></i>                                                                            </a>
+											<i class="fa fa-arrow-right"></i>                                                                            </a>
                                                         </div>
                 </div>
                     </div>
@@ -445,7 +325,7 @@ Skip to content</a>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
+                                        <i aria-hidden="true" class="fa fa-arrow-right"></i>                                                                            </a>
                                                         </div>
                 </div>
                     </div>
@@ -470,7 +350,7 @@ Skip to content</a>
         <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
                     <div class="elementskit-box-header elementor-animation-">
                 <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon icofont icofont-coins"></i>
+                    <i aria-hidden="true" class="elementkit-infobox-icon fa fa-mobile"></i>
                 </div>
           </div>
                         <div class="box-body">
@@ -480,7 +360,7 @@ Skip to content</a>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
+                                        <i aria-hidden="true" class="fa fa-arrow-right"></i>                                                                            </a>
                                                         </div>
                 </div>
                     </div>
@@ -501,7 +381,7 @@ Skip to content</a>
         <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
                     <div class="elementskit-box-header elementor-animation-">
                 <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon fab fa-bitcoin"></i>
+                    <i aria-hidden="true" class="elementkit-infobox-icon fa fa-shield"></i>
                 </div>
           </div>
                         <div class="box-body">
@@ -511,7 +391,7 @@ Skip to content</a>
                                         <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
                                                             <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
+                                        <i aria-hidden="true" class="fa fa-arrow-right"></i>                                                                            </a>
                                                         </div>
                 </div>
                     </div>
@@ -522,37 +402,14 @@ Skip to content</a>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-67829dd elementor-invisible" data-id="67829dd" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:360}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-8954bbc ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="8954bbc" data-element_type="widget" data-widget_type="elementskit-icon-box.default">
-				<div class="elementor-widget-container">
-			<div class="ekit-wid-con" >        <!-- link opening -->
-                <!-- end link opening -->
 
-        <div class="elementskit-infobox text-center text- icon-top-align elementor-animation-   ">
-                    <div class="elementskit-box-header elementor-animation-">
-                <div class="elementskit-info-box-icon  ">
-                    <i aria-hidden="true" class="elementkit-infobox-icon fas fa-comments-dollar"></i>
-                </div>
-          </div>
-                        <div class="box-body">
-                            <h3 class="elementskit-info-box-title">
-                    Investment Advisory                </h3>
-                        		  <p>Tellus litora curabitur consequat risus vestibulum purus leo tempus adipiscing vitae ut neque sem.</p>
-                                        <div class="box-footer disable_hover_button">
-                    <div class="btn-wraper">
-                                                            <a href="#" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-grow">
-                                        <i aria-hidden="true" class="icon icon-right-arrow"></i>                                                                            </a>
-                                                        </div>
-                </div>
-                    </div>
-        
-        
-                </div>
-        </div>		</div>
-				</div>
-					</div>
-		</div>
+		
+
+
+
+
+
+
 							</div>
 		</section>
 					</div>
@@ -570,20 +427,20 @@ Skip to content</a>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-c94ef68 elementor-widget elementor-widget-heading" data-id="c94ef68" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Get up to $600 plus 60 days of commission-free stocks & forex trades</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Invest little, Earn big</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-d8437dd elementor-widget elementor-widget-text-editor" data-id="d8437dd" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+							<p>Earn on investments, Earn on referral, Be financially free with Boomgemini Investments</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-5dea489 elementor-widget elementor-widget-button" data-id="5dea489" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="{{ route('property.submit') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+			<a href="{{ route('Deposit.index') }}" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 						<span class="elementor-button-content-wrapper">
 							<span class="elementor-button-icon elementor-align-icon-right">
 				<i aria-hidden="true" class="fas fa-chevron-circle-right"></i>			</span>
-						<span class="elementor-button-text">Submit a property  </span>
+						<span class="elementor-button-text">Start Investing </span>
 		</span>
 					</a>
 		</div>
@@ -611,7 +468,7 @@ Skip to content</a>
 				</div>
 				<div class="elementor-element elementor-element-ca4684f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ca4684f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
+							<p>We believe every investor should have access to high quality real estate and blockchain assets.</p>						</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-25cebcd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="25cebcd" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -621,7 +478,7 @@ Skip to content</a>
 				<div class="elementor-widget-container">
 			<style>/*! elementor-pro - v3.7.7 - 20-09-2022 */
 .elementor-widget-price-list .elementor-price-list{list-style:none;padding:0;margin:0}.elementor-widget-price-list .elementor-price-list li{margin:0}.elementor-price-list li:not(:last-child){margin-bottom:20px}.elementor-price-list .elementor-price-list-image{max-width:50%;-ms-flex-negative:0;flex-shrink:0;padding-right:25px}.elementor-price-list .elementor-price-list-image img{width:100%}.elementor-price-list .elementor-price-list-header,.elementor-price-list .elementor-price-list-item,.elementor-price-list .elementor-price-list-text{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-price-list .elementor-price-list-item{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.elementor-price-list .elementor-price-list-item .elementor-price-list-text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.elementor-price-list .elementor-price-list-item .elementor-price-list-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-preferred-size:100%;flex-basis:100%;font-size:19px;font-weight:600;margin-bottom:10px;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.elementor-price-list .elementor-price-list-item .elementor-price-list-title{max-width:80%}.elementor-price-list .elementor-price-list-item .elementor-price-list-price{font-weight:600}.elementor-price-list .elementor-price-list-item p.elementor-price-list-description{-ms-flex-preferred-size:100%;flex-basis:100%;font-size:14px;margin:0}.elementor-price-list .elementor-price-list-item .elementor-price-list-separator{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;margin-left:10px;margin-right:10px;border-bottom-style:dotted;border-bottom-width:2px;height:0}.elementor-price-table{text-align:center}.elementor-price-table .elementor-price-table__header{background:var(--e-price-table-header-background-color,#555);padding:20px 0}.elementor-price-table .elementor-price-table__heading{margin:0;padding:0;line-height:1.2;font-size:24px;font-weight:600;color:#fff}.elementor-price-table .elementor-price-table__subheading{font-size:13px;font-weight:400;color:#fff}.elementor-price-table .elementor-price-table__original-price{margin-right:15px;text-decoration:line-through;font-size:.5em;line-height:1;font-weight:400;-ms-flex-item-align:center;align-self:center}.elementor-price-table .elementor-price-table__original-price .elementor-price-table__currency{font-size:1em;margin:0}.elementor-price-table .elementor-price-table__price{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;color:#555;font-weight:800;font-size:65px;padding:40px 0}.elementor-price-table .elementor-price-table__price .elementor-typo-excluded{line-height:normal;letter-spacing:normal;text-transform:none;font-weight:400;font-size:medium;font-style:normal}.elementor-price-table .elementor-price-table__after-price{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;text-align:left;-ms-flex-item-align:stretch;align-self:stretch;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.elementor-price-table .elementor-price-table__integer-part{line-height:.8}.elementor-price-table .elementor-price-table__currency,.elementor-price-table .elementor-price-table__fractional-part{line-height:1;font-size:.3em}.elementor-price-table .elementor-price-table__currency{margin-right:3px}.elementor-price-table .elementor-price-table__period{width:100%;font-size:13px;font-weight:400}.elementor-price-table .elementor-price-table__features-list{list-style-type:none;margin:0;padding:0;line-height:1;color:var(--e-price-table-features-list-color)}.elementor-price-table .elementor-price-table__features-list li{font-size:14px;line-height:1;margin:0;padding:0}.elementor-price-table .elementor-price-table__features-list li .elementor-price-table__feature-inner{margin-left:15px;margin-right:15px}.elementor-price-table .elementor-price-table__features-list li:not(:first-child):before{content:"";display:block;border:0 solid hsla(0,0%,47.8%,.3);margin:10px 12.5%}.elementor-price-table .elementor-price-table__features-list i{margin-right:10px;font-size:1.3em}.elementor-price-table .elementor-price-table__features-list svg{margin-right:10px;fill:var(--e-price-table-features-list-color);height:1.3em;width:1.3em}.elementor-price-table .elementor-price-table__features-list svg~*{vertical-align:text-top}.elementor-price-table .elementor-price-table__footer{padding:30px 0}.elementor-price-table .elementor-price-table__additional_info{margin:0;font-size:13px;line-height:1.4}.elementor-price-table__ribbon{position:absolute;top:0;left:auto;right:0;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);width:150px;overflow:hidden;height:150px}.elementor-price-table__ribbon-inner{text-align:center;left:0;width:200%;-webkit-transform:translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);-ms-transform:translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);transform:translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);margin-top:35px;font-size:13px;line-height:2;font-weight:800;text-transform:uppercase;background:#000}.elementor-price-table__ribbon.elementor-ribbon-left{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);left:0;right:auto}.elementor-price-table__ribbon.elementor-ribbon-right{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);left:auto;right:0}.elementor-widget-price-table .elementor-widget-container{overflow:hidden;background-color:#f7f7f7}.e-container>.elementor-widget-price-list,.e-container__inner>.elementor-widget-price-list{width:var(--container-widget-width,100%)}</style>
-		<div class="elementor-price-table">
+		<div class="elementor-price-table" style="background: rebeccapurple;">
 							<div class="elementor-price-table__header">
 											<h3 class="elementor-price-table__heading">
 						Starter						</h3>
@@ -633,7 +490,7 @@ Skip to content</a>
 	<div class="elementor-price-table__price">
 		<span class="elementor-price-table__currency">&#036;</span>
 		<span class="elementor-price-table__fractional-part">100</span>
-		<span class="elementor-price-table__fractional-part" style="color: black;"> - $4,999</span>
+		<span class="elementor-price-table__fractional-part" style="color: yellow;"> - $4,999</span>
 		<div class="elementor-price-table__after-price">
 			{{-- <span class="elementor-price-table__integer-part"></span> --}}
 		</div>
@@ -643,29 +500,29 @@ Skip to content</a>
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 										Minimum investment Amount									</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-f472b82">
-							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
+							<div class="elementor-price-table__feature-inner" >
+								<i aria-hidden="true" class="fa fa-check" style="color: white;"></i>																	<span >
 										ROI 5% Daily for 2 days								</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
-							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
+							<div class="elementor-price-table__feature-inner" >
+								<i aria-hidden="true" class="fa fa-check" style="color: white;"></i>																	<span >
 										2% referral commission									</span>
 																</div>
 						</li>
 									</ul>
-			
+
 							<div class="elementor-price-table__footer">
-											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
+							<a class="elementor-price-table__button elementor-button elementor-size-md" href="/Deposit">
 							Get Started						</a>
-					
-									</div>
+
+							</div>
 					</div>
 
 				</div>
@@ -715,7 +572,7 @@ Skip to content</a>
 									<div class="elementor-price-table__price">
 										<span class="elementor-price-table__currency">&#036;</span>
 										<span class="elementor-price-table__fractional-part">5,000</span>
-										<span class="elementor-price-table__fractional-part" style="color: black;"> - Unlimited</span>
+										<span class="elementor-price-table__fractional-part" style="color: yellow;"> - Unlimited</span>
 										<div class="elementor-price-table__after-price">
 										</div>
 									</div>
@@ -724,26 +581,26 @@ Skip to content</a>
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 										General investment account									</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-f472b82">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 									2% referral commission										</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-x-altx-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 									ROI 5% Daily for 2 days											</span>
 																</div>
 						</li>
 									</ul>
 			
 							<div class="elementor-price-table__footer">
-											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
+											<a class="elementor-price-table__button elementor-button elementor-size-md" href="/Deposit">
 							Get Started					</a>
 					
 									</div>
@@ -792,7 +649,7 @@ Skip to content</a>
 								<div class="elementor-element elementor-element-2c7eb68 elementor-widget elementor-widget-price-table" data-id="2c7eb68" data-element_type="widget" data-widget_type="price-table.default">
 				<div class="elementor-widget-container">
 			
-		<div class="elementor-price-table">
+		<div class="elementor-price-table"  style="background: rebeccapurple;">
 							<div class="elementor-price-table__header">
 											<h3 class="elementor-price-table__heading">
 						Premium						</h3>
@@ -812,26 +669,26 @@ Skip to content</a>
 							<ul class="elementor-price-table__features-list">
 											<li class="elementor-repeater-item-d29a67d">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 										Premimium investment Plan								</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-f472b82">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 										25.5% Daily for 10 Days									</span>
 																</div>
 						</li>
 											<li class="elementor-repeater-item-6a918c9">
 							<div class="elementor-price-table__feature-inner">
-								<i aria-hidden="true" class="iconic iconic-check-alt"></i>																	<span >
+								<i aria-hidden="true" class="fa fa-check"></i>																	<span >
 										12% Referral Commission									</span>
 																</div>
 						</li>
 									</ul>
 			
 							<div class="elementor-price-table__footer">
-											<a class="elementor-price-table__button elementor-button elementor-size-md" href="#">
+											<a class="elementor-price-table__button elementor-button elementor-size-md" href="/Deposit">
 							Get started						</a>
 					
 									</div>
@@ -849,124 +706,8 @@ Skip to content</a>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-b04ea2f elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b04ea2f" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c4bc8b elementor-invisible" data-id="4c4bc8b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-482a076 elementor-widget elementor-widget-image" data-id="482a076" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="1280" height="1920" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts.jpg" class="attachment-full size-full wp-image-364" alt="Smiling businessmen drink coffee and discussing documents with graphs and charts" loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts.jpg 1280w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts-200x300.jpg 200w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts-682x1024.jpg 682w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts-768x1152.jpg 768w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts-1024x1536.jpg 1024w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/smiling-businessmen-drink-coffee-and-discussing-documents-with-graphs-and-charts-800x1200.jpg 800w" sizes="(max-width: 1280px) 100vw, 1280px" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-26e45c4 elementor-invisible" data-id="26e45c4" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c6bd603 elementor-widget elementor-widget-heading" data-id="c6bd603" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Why Choose Us</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-487429a elementor-widget elementor-widget-heading" data-id="487429a" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">An investment that takes you to great heights</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-454f5b9 elementor-widget elementor-widget-text-editor" data-id="454f5b9" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-8316e71 elementor-position-left elementor-mobile-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="8316e71" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<div class="elementor-icon-box-title">
-					<span  >
-						Trusted by Investor					</span>
-				</div>
-									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
-							</div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-f027646 elementor-position-left elementor-mobile-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="f027646" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<div class="elementor-icon-box-title">
-					<span  >
-						Invest With Confidence					</span>
-				</div>
-									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
-							</div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-f24a8b0 elementor-position-left elementor-mobile-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="f24a8b0" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="oi oi-check"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<div class="elementor-icon-box-title">
-					<span  >
-						Secure Platform					</span>
-				</div>
-									<p class="elementor-icon-box-description">
-						Suscipit class etiam letius efficitur a hac accumsan si. Lacinia arcu dictumst a penatibus non fermentum donec sociosqu sed vulputate ante.					</p>
-							</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-{{-- <section class="elementor-section elementor-top-section elementor-element elementor-element-88a873c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88a873c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ae574b0 elementor-invisible" data-id="ae574b0" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-57acc4e elementor-widget elementor-widget-elementskit-heading" data-id="57acc4e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="elementskit-heading.default">
-<div class="elementor-widget-container">
-<div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper    ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title ">Download <span><span>GetTrade</span></span> Apps</h2></div></div>		</div>
-</div>
-<div class="elementor-element elementor-element-39828b8 elementor-widget elementor-widget-text-editor" data-id="39828b8" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<p>Ridiculus fusce maecenas ut blandit tempus. Lorem semper penatibus venenatis convallis efficitur. Placerat laoreet pellentesque aliquet habitant eleifend quis ridiculus dictumst habitasse.</p>						</div>
-</div>
-<div class="elementor-element elementor-element-725fa03 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="725fa03" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-		<a href="#">
-<img decoding="async" width="216" height="64" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/App-Store_button.png" class="attachment-full size-full wp-image-637" alt="" loading="lazy" />								</a>
-	</div>
-</div>
-<div class="elementor-element elementor-element-4bf5480 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4bf5480" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-		<a href="#">
-<img decoding="async" width="216" height="64" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Google-Play_button.png" class="attachment-full size-full wp-image-638" alt="" loading="lazy" />								</a>
-	</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-246a7c3 elementor-invisible" data-id="246a7c3" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-bcaffda elementor-absolute e-transform elementor-widget elementor-widget-image" data-id="bcaffda" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:6,&quot;sizes&quot;:[]},&quot;_animation&quot;:&quot;none&quot;,&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
-<div class="elementor-widget-container">
-	<img decoding="async" width="600" height="617" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Apps-Trading-Mockup-2-1.png" class="attachment-full size-full wp-image-640" alt="" loading="lazy" srcset="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Apps-Trading-Mockup-2-1.png 600w, https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Apps-Trading-Mockup-2-1-292x300.png 292w" sizes="(max-width: 600px) 100vw, 600px" />															</div>
-</div>
-</div>
-</div>
-</div>
-</section> --}}
+				@include('frontend.inc.how_work')
+		
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-236798f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="236798f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-15db49a" data-id="15db49a" data-element_type="column">
@@ -988,45 +729,21 @@ Skip to content</a>
 			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">		<div class="elementor-swiper">
 			<div class="elementor-main-swiper swiper-container">
 				<div class="swiper-wrapper">
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Porttitor integer bibendum odio pulvinar rutrum magnis viverra orci tincidunt efficitur. Aptent pharetra est nunc mattis donec per mi porttitor penatibus."					</div>
-									</div>
+					@foreach (App\Models\Review::whereStatus('0')->get() as $review)
+					<div class="swiper-slide">
+						<div class="elementor-testimonial">
+						<div class="elementor-testimonial__content">
+						<div class="elementor-testimonial__text">
+						"{{ ucfirst($review->review) }}"					</div>
+						</div>
 						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img decoding="async" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Clients-3.jpg" alt="George D. Coffey">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">George D. Coffey</span><span class="elementor-testimonial__title">Accountant</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Porttitor integer bibendum odio pulvinar rutrum magnis viverra orci tincidunt efficitur. Aptent pharetra est nunc mattis donec per mi porttitor penatibus."					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img decoding="async" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Clients-1.jpg" alt="Melissa J. Talley">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Melissa J. Talley</span><span class="elementor-testimonial__title">Manager</span></cite>			</div>
-		</div>
-								</div>
-											<div class="swiper-slide">
-									<div class="elementor-testimonial">
-							<div class="elementor-testimonial__content">
-					<div class="elementor-testimonial__text">
-						"Porttitor integer bibendum odio pulvinar rutrum magnis viverra orci tincidunt efficitur. Aptent pharetra est nunc mattis donec per mi porttitor penatibus."					</div>
-									</div>
-						<div class="elementor-testimonial__footer">
-									<div class="elementor-testimonial__image">
-						<img decoding="async" src="https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/11/Clients-2.jpg" alt="Wilton Groves">
-											</div>
-								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Wilton Groves</span><span class="elementor-testimonial__title">Trader</span></cite>			</div>
-		</div>
-								</div>
+						<div class="elementor-testimonial__image">
+						<img decoding="async" src="{{ url('/') }}/assets/img/review/{{ $review->avatar }}" alt="{{ ucfirst($review->name) }}">
+						</div>
+						<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">{{ ucfirst($review->name) }}</span><span class="elementor-testimonial__title">{{ ucfirst($review->occupation) }}</span></cite>			</div>
+						</div>
+					</div>
+					@endforeach
 									</div>
 																					</div>
 		</div>
@@ -1036,24 +753,8 @@ Skip to content</a>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-c5dc6a4 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c5dc6a4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e08a116" data-id="e08a116" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fbae4bb elementor-cta--skin-cover elementor-cta--valign-bottom elementor-bg-transform elementor-bg-transform-zoom-in elementor-invisible elementor-widget elementor-widget-call-to-action" data-id="fbae4bb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="call-to-action.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://kitnew.moxcreative.com/gettrade/wp-content/plugins/elementor-pro/assets/css/widget-call-to-action.min.css">		<div class="elementor-cta">
-					<div class="elementor-cta__bg-wrapper">
-				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://kitnew.moxcreative.com/gettrade/wp-content/uploads/sites/8/2022/10/bitcoin-coin-in-blue-neon-close-up-against-blurred-graphs-world-cryptocurrency.jpg);"></div>
-				<div class="elementor-cta__bg-overlay"></div>
-			</div>
+
+
+							{{-- @include('frontend.inc.latest_posts') --}}
 						</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				
-							</div>
-		</section>
-							</div>
 							@include('frontend.inc.footer')
